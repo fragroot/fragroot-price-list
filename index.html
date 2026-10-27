@@ -1,0 +1,2404 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Fragroot | Price List</title>
+    <link rel="icon" href="./crown.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Hanken+Grotesk:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --head: "Playfair Display", Georgia, serif;
+        --bg: #1c544b;
+        --card: #153f38;
+        --ink: #f1fadd;
+        --mute: #ebf5d9;
+        --line: #86a794;
+        --acc: #f1fadd;
+        --accfg: #1c544b;
+        --sel: #385d52;
+        box-sizing: border-box;
+        padding-top: env(safe-area-inset-top, 0px);
+        padding-bottom: env(safe-area-inset-bottom, 0px);
+      }
+      :root[data-brand="attar"] {
+        --bg: #1c544b;
+        --card: #153f38;
+        --ink: #f1fadd;
+        --mute: #ebf5d9;
+        --line: #86a794;
+        --acc: #f1fadd;
+        --accfg: #1c544b;
+        --sel: #385d52;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        scroll-padding-top: env(safe-area-inset-top, 0px);
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        transition:
+          background 0.25s,
+          color 0.25s;
+        font-family: "Hanken Grotesk", system-ui, sans-serif;
+        line-height: 1.45;
+      }
+      button,
+      a {
+        font: inherit;
+      }
+      button:focus-visible,
+      a:focus-visible {
+        outline: 2px solid var(--acc);
+        outline-offset: 2px;
+      }
+      b,
+      strong {
+        font-weight: 500;
+      }
+      header {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 22px 16px 6px;
+        text-align: center;
+      }
+      .logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+        color: var(--acc);
+        min-height: 92px;
+      }
+      .logo svg {
+        width: 56px;
+        height: 56px;
+      }
+      :root:not([data-brand="attar"]) .logo img {
+        border-radius: 14px;
+      }
+      .logo img {
+        width: auto;
+        height: auto;
+        max-width: min(300px, 80vw);
+        max-height: 200px;
+        object-fit: contain;
+      }
+      .logo b {
+        font-family: var(--head);
+        font-weight: 400;
+        font-size: 1.5rem;
+        color: var(--ink);
+        line-height: 1.1;
+      }
+      .logo small {
+        color: var(--mute);
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        font-size: 0.72rem;
+      }
+      .tabs {
+        display: flex;
+        gap: 10px;
+        max-width: 460px;
+        margin: 14px auto 0;
+      }
+      .tabs button {
+        flex: 1;
+        cursor: pointer;
+        padding: 10px 8px;
+        border-radius: 8px;
+        border: 1px solid var(--line);
+        background: var(--card);
+        color: var(--ink);
+        font-weight: 500;
+      }
+      .tabs button.on {
+        background: var(--acc);
+        border-color: var(--acc);
+        color: var(--accfg);
+      }
+      main {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 16px 16px 24px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        gap: 14px;
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        padding: 16px;
+      }
+      .card h2 {
+        font-family: var(--head);
+        font-weight: 400;
+        font-size: 1.25rem;
+        margin: 0;
+      }
+      .brand {
+        color: var(--mute);
+        font-size: 0.9rem;
+        margin: 2px 0 12px;
+      }
+      .sizes {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+      .size {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+      }
+      .pick {
+        cursor: pointer;
+        background: transparent;
+        color: var(--ink);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 8px 12px;
+        min-width: 88px;
+        text-align: center;
+      }
+      .pick b {
+        display: block;
+        font-weight: 500;
+      }
+      .pick span {
+        font-size: 0.85rem;
+        color: var(--mute);
+      }
+      .pick:hover {
+        border-color: var(--acc);
+      }
+      .size.on .pick {
+        background: var(--sel);
+        border-color: var(--acc);
+      }
+      .step {
+        display: flex;
+        align-items: center;
+        border: 1px solid var(--acc);
+        border-radius: 8px;
+        overflow: hidden;
+      }
+      .step button {
+        cursor: pointer;
+        border: 0;
+        background: var(--sel);
+        color: var(--ink);
+        width: 30px;
+        height: 30px;
+        font-size: 1.1rem;
+        line-height: 1;
+      }
+      .step span {
+        min-width: 30px;
+        text-align: center;
+        font-weight: 500;
+      }
+      #bar {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: var(--card);
+        border-top: 1px solid var(--line);
+        padding: 10px 16px calc(10px + env(safe-area-inset-bottom, 0px));
+        box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.08);
+      }
+      #bar .in {
+        max-width: 960px;
+        margin: 0 auto;
+      }
+      #panel {
+        max-height: 42vh;
+        overflow-y: auto;
+        margin-bottom: 8px;
+        font-size: 0.93rem;
+      }
+      #panel[hidden] {
+        display: none;
+      }
+      #panel h3 {
+        margin: 8px 0 4px;
+        font-size: 0.8rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--acc);
+        display: flex;
+        justify-content: space-between;
+      }
+      #panel .li {
+        display: flex;
+        justify-content: space-between;
+        gap: 8px;
+        padding: 3px 0;
+        border-bottom: 1px dashed var(--line);
+      }
+      #panel .empty {
+        color: var(--mute);
+      }
+      .row {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+      #tg {
+        cursor: pointer;
+        border: 1px solid var(--line);
+        background: var(--card);
+        color: var(--ink);
+        border-radius: 8px;
+        width: 38px;
+        height: 38px;
+        font-size: 1rem;
+        transition: transform 0.2s;
+      }
+      #tg[aria-expanded="true"] {
+        transform: rotate(180deg);
+      }
+      .sum {
+        margin-right: auto;
+        font-weight: 500;
+        line-height: 1.25;
+      }
+      .sum small {
+        display: block;
+        color: var(--mute);
+        font-weight: 400;
+      }
+      .send {
+        display: inline-block;
+        text-decoration: none;
+        font-weight: 500;
+        cursor: pointer;
+        border: 0;
+        border-radius: 8px;
+        padding: 10px 14px;
+        background: var(--acc);
+        color: var(--accfg);
+      }
+      .send.alt {
+        background: transparent;
+        color: var(--ink);
+        border: 1px solid var(--line);
+      }
+      .send:disabled {
+        opacity: 0.45;
+        cursor: not-allowed;
+      }
+      .send[aria-disabled="true"] {
+        opacity: 0.45;
+        pointer-events: none;
+      }
+      dialog {
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        background: var(--card);
+        color: var(--ink);
+        padding: 18px;
+        width: min(440px, calc(100% - 24px));
+      }
+      dialog::backdrop {
+        background: rgba(0, 0, 0, 0.5);
+      }
+      dialog h2 {
+        font-family: var(--head);
+        font-weight: 400;
+        margin: 0 0 10px;
+        font-size: 1.3rem;
+      }
+      dialog label {
+        display: block;
+        font-size: 0.85rem;
+        color: var(--mute);
+        margin: 10px 0 4px;
+      }
+      dialog input,
+      dialog textarea {
+        width: 100%;
+        font: inherit;
+        color: var(--ink);
+        background: var(--bg);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 9px 10px;
+      }
+      dialog textarea {
+        min-height: 76px;
+        resize: vertical;
+      }
+      .dlink {
+        background: none;
+        border: 0;
+        color: var(--acc);
+        text-decoration: underline;
+        cursor: pointer;
+        padding: 0;
+        margin: 10px 0;
+      }
+      .dsum {
+        background: var(--sel);
+        border-radius: 8px;
+        padding: 8px 10px;
+        margin-bottom: 4px;
+        font-weight: 500;
+      }
+      .dsum small {
+        display: block;
+        font-weight: 400;
+        color: var(--mute);
+      }
+      .dnote {
+        font-size: 0.82rem;
+        color: var(--mute);
+        margin: 8px 0 0;
+      }
+      .dbtns {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-top: 12px;
+      }
+      .dbtns .send {
+        flex: 1;
+        text-align: center;
+      }
+      .close {
+        cursor: pointer;
+        border: 1px solid var(--line);
+        background: transparent;
+        color: var(--ink);
+        border-radius: 8px;
+        padding: 8px 14px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      td {
+        padding: 6px 0;
+        border-bottom: 1px dashed var(--line);
+      }
+      td:last-child {
+        text-align: right;
+        font-weight: 500;
+      }
+      .ic {
+        width: 18px;
+        height: 18px;
+        flex: none;
+        fill: none;
+        stroke: currentColor;
+        stroke-width: 2;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .send {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+      }
+      #panel .li {
+        align-items: center;
+      }
+      .ctl {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .ctl button {
+        width: 26px;
+        height: 26px;
+        border: 1px solid var(--line);
+        background: var(--sel);
+        color: var(--ink);
+        border-radius: 6px;
+        cursor: pointer;
+      }
+      footer {
+        background: var(--card);
+        border-top: 1px solid var(--line);
+        margin-top: 8px;
+        padding: 24px 16px 150px;
+      }
+      .fin {
+        max-width: 960px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+        gap: 22px;
+      }
+      footer h3 {
+        font-family: var(--head);
+        font-weight: 400;
+        font-size: 1.1rem;
+        margin: 0 0 8px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: var(--acc);
+      }
+      footer p {
+        margin: 0 0 8px;
+        color: var(--mute);
+        font-size: 0.92rem;
+      }
+      footer a,
+      .plink {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: var(--ink);
+        text-decoration: none;
+        padding: 4px 0;
+        font-size: 0.92rem;
+        background: none;
+        border: 0;
+        cursor: pointer;
+        text-align: left;
+        width: 100%;
+      }
+      footer a:hover,
+      .plink:hover {
+        color: var(--acc);
+      }
+      .sub {
+        font-size: 0.72rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--mute);
+        margin: 10px 0 2px;
+      }
+      .badges {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+      }
+      .badges span {
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        padding: 4px 10px;
+        font-weight: 500;
+        font-size: 0.85rem;
+      }
+      #pd-b {
+        max-height: 68vh;
+        overflow: auto;
+        border-radius: 8px;
+      }
+      #pd-b.txt {
+        white-space: pre-line;
+      }
+      #pd-b.htm {
+        background: #fff;
+        color: #222;
+      }
+      #pd-b.htm img {
+        max-width: 100%;
+        height: auto;
+      }
+      #pd {
+        width: min(920px, calc(100% - 24px));
+      }
+      .seeb {
+        text-align: center;
+        margin: 6px 0 0;
+      }
+      .seeb .dlink {
+        margin: 0;
+        font-size: 0.9rem;
+      }
+      #bg {
+        width: min(640px, calc(100% - 24px));
+      }
+      #bg-g {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+        gap: 12px;
+        max-height: 62vh;
+        overflow: auto;
+        margin: 10px 0;
+      }
+      #bg-g figure {
+        margin: 0;
+        text-align: center;
+      }
+      #bg-g img {
+        width: 100%;
+        aspect-ratio: 1;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 1px solid var(--line);
+        background: #fff;
+        display: block;
+      }
+      #bg-g figcaption {
+        margin-top: 4px;
+        font-size: 0.9rem;
+        line-height: 1.3;
+      }
+      #panel .pr {
+        text-align: right;
+        margin: 2px 0 4px;
+      }
+      #panel .pr button {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        font: inherit;
+        font-size: 0.8rem;
+        color: var(--mute);
+        background: none;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        padding: 3px 10px;
+        cursor: pointer;
+      }
+      #panel .pr .ic {
+        width: 14px;
+        height: 14px;
+      }
+      #cp {
+        text-align: center;
+        width: min(380px, calc(100% - 32px));
+      }
+      #cp p {
+        margin: 6px 0 4px;
+        font-size: 1.05rem;
+        line-height: 1.5;
+      }
+      #cp .ic {
+        width: 34px;
+        height: 34px;
+        color: var(--acc);
+      }
+      #cp .dbtns {
+        justify-content: center;
+      }
+      #cp .send {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+      }
+      .search {
+        max-width: 460px;
+        margin: 12px auto 0;
+        position: relative;
+        display: flex;
+        align-items: center;
+      }
+      .search .ic {
+        position: absolute;
+        left: 12px;
+        color: var(--mute);
+      }
+      .search input {
+        width: 100%;
+        font: inherit;
+        color: var(--ink);
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 10px 12px 10px 38px;
+      }
+      .size select {
+        font: inherit;
+        font-size: 0.8rem;
+        width: 100%;
+        max-width: 110px;
+        color: var(--ink);
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        padding: 4px;
+      }
+      .bsel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2px;
+        width: 100%;
+      }
+      .bsel small,
+      .vrow small {
+        font-size: 0.72rem;
+        color: var(--mute);
+      }
+      .vrow {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+      .chips {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 460px;
+        margin: 10px auto 0;
+      }
+      .chips[hidden] {
+        display: none;
+      }
+      .chips button {
+        cursor: pointer;
+        border: 1px solid var(--line);
+        background: var(--card);
+        color: var(--ink);
+        border-radius: 999px;
+        padding: 6px 14px;
+        font-size: 0.88rem;
+      }
+      .chips button.on {
+        background: var(--acc);
+        border-color: var(--acc);
+        color: var(--accfg);
+      }
+      #dl-body h3 {
+        margin: 14px 0 4px;
+        font-size: 1rem;
+        color: var(--acc);
+      }
+      #dl-body h3:first-child {
+        margin-top: 0;
+      }
+      .dnote {
+        font-size: 0.88rem;
+        color: var(--mute);
+      }
+      .terms {
+        margin-top: 12px;
+      }
+      .terms label {
+        display: flex;
+        gap: 8px;
+        align-items: flex-start;
+        color: var(--ink);
+        font-size: 0.9rem;
+        margin: 0;
+      }
+      dialog input[type="checkbox"] {
+        width: auto;
+        margin-top: 3px;
+        accent-color: var(--acc);
+      }
+      .terms .dlink {
+        margin: 0;
+        font-size: inherit;
+        font-weight: 500;
+      }
+      .size.out .pick {
+        cursor: not-allowed;
+        border-style: dashed;
+        background: transparent;
+      }
+      .size.out .pick b {
+        text-decoration: line-through;
+        color: var(--mute);
+      }
+      .size.out .pick span {
+        font-weight: 500;
+        color: var(--ink);
+      }
+      #panel .li {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 96px 78px;
+        align-items: center;
+        gap: 10px;
+        padding: 6px 0;
+      }
+      #panel .li > span:last-child {
+        text-align: right;
+        font-weight: 500;
+      }
+      .ctl {
+        width: 96px;
+        justify-content: space-between;
+      }
+      .ctl b {
+        min-width: 28px;
+        text-align: center;
+      }
+      .ctl button,
+      .step button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        line-height: 1;
+      }
+      main {
+        grid-template-columns: repeat(auto-fill, minmax(min(360px, 100%), 1fr));
+      }
+      .sizes {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        gap: 10px;
+        align-items: start;
+      }
+      .size {
+        width: 100%;
+        align-items: stretch;
+      }
+      .pick {
+        width: 100%;
+        min-width: 0;
+      }
+      .step {
+        width: 100%;
+      }
+      .step span {
+        flex: 1;
+      }
+      .bsel {
+        align-items: stretch;
+      }
+      .size select {
+        max-width: none;
+        font-size: 0.78rem;
+        padding: 4px 2px;
+      }
+      .vrow {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 2px;
+        width: 100%;
+      }
+      .vrow small {
+        text-align: center;
+      }
+      .tools {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 640px;
+        margin: 10px auto 0;
+      }
+      .tl {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2px;
+      }
+      .tl small {
+        font-size: 0.72rem;
+        color: var(--mute);
+      }
+      .tl select {
+        font: inherit;
+        font-size: 0.9rem;
+        color: var(--ink);
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 8px 10px;
+        min-width: 130px;
+      }
+      header {
+        padding-bottom: 0;
+      }
+      .stick {
+        padding: 8px 16px 10px;
+      }
+      .stick .tabs {
+        margin-top: 6px;
+      }
+      .stick .search {
+        margin-top: 8px;
+      }
+      .stick .chips,
+      .stick .tools {
+        margin-top: 8px;
+      }
+      .tl {
+        flex: 1 1 130px;
+        min-width: 0;
+      }
+      .tl select {
+        width: 100%;
+        min-width: 0;
+        padding: 6px 8px;
+      }
+      main {
+        padding-top: 14px;
+      }
+      /* 3) delivery destinations stand out */
+      #dl-body h3 {
+        font-size: 1.1rem;
+        background: var(--acc);
+        color: var(--accfg);
+        padding: 6px 10px;
+        border-radius: 6px;
+        margin: 14px 0 6px;
+      }
+      #tg {
+        position: absolute;
+        left: 50%;
+        top: -24px;
+        transform: none;
+        margin-left: -34px;
+        width: 68px;
+        height: 24px;
+        border-radius: 12px 12px 0 0;
+        border: 1px solid var(--line);
+        border-bottom: 0;
+        background: var(--card);
+        color: var(--ink);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        cursor: pointer;
+      }
+      #tg[aria-expanded="true"] {
+        transform: none;
+      }
+      #tg .ic {
+        transition: transform 0.2s;
+      }
+      #tg[aria-expanded="true"] .ic {
+        transform: rotate(180deg);
+      }
+      #bar {
+        padding-top: 12px;
+      }
+      /* 3) About us at the bottom of the footer */
+      .fin .about {
+        grid-column: 1/-1;
+        border-top: 1px solid var(--line);
+        padding-top: 16px;
+      }
+      .sbar {
+        position: sticky;
+        top: env(safe-area-inset-top, 0px);
+        z-index: 20;
+        background: var(--bg);
+        padding: 8px 16px;
+        box-shadow: 0 1px 0 var(--line);
+        transition: background 0.25s;
+      }
+      .sbar .search {
+        margin: 0 auto;
+      }
+      #top {
+        position: fixed;
+        right: 16px;
+        bottom: calc(var(--barh, 84px) + 16px);
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        border: 0;
+        background: var(--acc);
+        color: var(--accfg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+        z-index: 30;
+        padding: 0;
+      }
+      #top[hidden] {
+        display: none;
+      }
+      #top .ic {
+        width: 22px;
+        height: 22px;
+      }
+      #panel h3 {
+        background: var(--acc);
+        color: var(--accfg);
+        padding: 6px 10px;
+        border-radius: 6px;
+        margin: 10px 0 4px;
+      }
+      .gbanner {
+        grid-column: 1/-1;
+        background: var(--sel);
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        padding: 10px 12px;
+        display: flex;
+        gap: 10px;
+        align-items: flex-start;
+        font-size: 0.92rem;
+      }
+      .gbanner .ic {
+        margin-top: 2px;
+      }
+      .gift {
+        margin-top: 12px;
+        padding-top: 10px;
+        border-top: 1px dashed var(--line);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+      .gl {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 0.85rem;
+        font-weight: 500;
+      }
+      .gbtn {
+        cursor: pointer;
+        border: 1px solid var(--acc);
+        background: transparent;
+        color: var(--ink);
+        border-radius: 8px;
+        padding: 6px 10px;
+        font-weight: 500;
+      }
+      .gbtn:disabled,
+      .step button:disabled,
+      .ctl button:disabled {
+        opacity: 0.4;
+        cursor: not-allowed;
+      }
+      .gift .step {
+        width: 112px;
+      }
+      #toast {
+        position: fixed;
+        left: 50%;
+        bottom: calc(120px + env(safe-area-inset-bottom, 0px));
+        transform: translateX(-50%);
+        background: var(--ink);
+        color: var(--bg);
+        padding: 8px 14px;
+        border-radius: 8px;
+        font-size: 0.9rem;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.2s;
+      }
+      #toast.show {
+        opacity: 1;
+      }
+      /* tagline under the search bar */
+      .tagline {
+        max-width: 460px;
+        margin: 6px auto 0;
+        text-align: center;
+        font-size: 0.74rem;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--mute);
+        font-weight: 500;
+      }
+      .tagline:empty {
+        display: none;
+      }
+      /* product photos */
+      .chead {
+        display: flex;
+        gap: 14px;
+        align-items: center;
+        margin-bottom: 12px;
+      }
+      .chead .brand {
+        margin: 2px 0 0;
+      }
+      .pimg {
+        flex: none;
+        width: 104px;
+        height: 104px;
+        border-radius: 10px;
+        border: 1px solid var(--line);
+        background: var(--sel);
+        padding: 0;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--mute);
+      }
+      button.pimg {
+        cursor: zoom-in;
+      }
+      .pimg img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+      .pimg.ph svg {
+        width: 46px;
+        height: 46px;
+        opacity: 0.55;
+      }
+      #im {
+        padding: 12px;
+        width: min(520px, calc(100% - 24px));
+      }
+      #im img {
+        display: block;
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: contain;
+        border-radius: 8px;
+        background: var(--sel);
+      }
+      #im p {
+        font-family: var(--head);
+        font-size: 1.1rem;
+        margin: 10px 0 0;
+      }
+    </style>
+  </head>
+  <body>
+    <svg width="0" height="0" style="position: absolute" aria-hidden="true">
+      <symbol id="i-wa" viewBox="0 0 24 24">
+        <path
+          d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
+        />
+      </symbol>
+      <symbol id="i-msg" viewBox="0 0 24 24">
+        <path
+          d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"
+        />
+      </symbol>
+      <symbol id="i-fb" viewBox="0 0 24 24">
+        <path
+          d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+        />
+      </symbol>
+      <symbol id="i-ig" viewBox="0 0 24 24">
+        <rect x="2" y="2" width="20" height="20" rx="5" />
+        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+      </symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24">
+        <rect x="2" y="4" width="20" height="16" rx="2" />
+        <path d="m22 7-10 6L2 7" />
+      </symbol>
+      <symbol id="i-truck" viewBox="0 0 24 24">
+        <rect x="1" y="3" width="15" height="13" />
+        <polygon points="16 8 20 8 23 11 23 16 16 16 16 8" />
+        <circle cx="5.5" cy="18.5" r="2.5" />
+        <circle cx="18.5" cy="18.5" r="2.5" />
+      </symbol>
+      <symbol id="i-undo" viewBox="0 0 24 24">
+        <polyline points="1 4 1 10 7 10" />
+        <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10" />
+      </symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24">
+        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+      </symbol>
+      <symbol id="i-info" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="10" />
+        <line x1="12" y1="16" x2="12" y2="12" />
+        <line x1="12" y1="8" x2="12.01" y2="8" />
+      </symbol>
+      <symbol id="i-card" viewBox="0 0 24 24">
+        <rect x="1" y="4" width="22" height="16" rx="2" />
+        <line x1="1" y1="10" x2="23" y2="10" />
+      </symbol>
+      <symbol id="i-search" viewBox="0 0 24 24">
+        <circle cx="11" cy="11" r="8" />
+        <line x1="21" y1="21" x2="16.65" y2="16.65" />
+      </symbol>
+      <symbol id="i-up" viewBox="0 0 24 24">
+        <polyline points="18 15 12 9 6 15" />
+      </symbol>
+      <symbol id="i-gift" viewBox="0 0 24 24">
+        <polyline points="20 12 20 22 4 22 4 12" />
+        <rect x="2" y="7" width="20" height="5" />
+        <line x1="12" y1="22" x2="12" y2="7" />
+        <path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z" />
+        <path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z" />
+      </symbol>
+      <symbol id="i-trash" viewBox="0 0 24 24">
+        <polyline points="3 6 5 6 21 6" />
+        <path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6" />
+        <path d="M10 11v6M14 11v6" />
+        <path d="M9 6V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2" />
+      </symbol>
+      <symbol id="i-cart" viewBox="0 0 24 24">
+        <circle cx="9" cy="21" r="1" />
+        <circle cx="20" cy="21" r="1" />
+        <path
+          d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"
+        />
+      </symbol>
+    </svg>
+    <header>
+      <div class="logo" id="logo"></div>
+    </header>
+    <div class="stick">
+      <div class="tabs" role="tablist">
+        <button type="button" id="t-perfume" data-tab="perfume" role="tab">
+          Perfume
+        </button>
+        <button type="button" id="t-attar" data-tab="attar" role="tab">
+          Perfume Oil / Attar
+        </button>
+      </div>
+    </div>
+    <div class="sbar">
+      <div class="search">
+        <svg class="ic"><use href="#i-search" /></svg
+        ><input id="q" type="search" autocomplete="off" aria-label="Search" />
+      </div>
+      <div class="tagline" id="tagline"></div>
+    </div>
+    <div class="stick">
+      <div class="tools" id="tools"></div>
+      <div class="seeb">
+        <button type="button" class="dlink" id="see-b">See Bottles</button>
+      </div>
+    </div>
+    <main id="list"></main>
+    <footer>
+      <div class="fin">
+        <section>
+          <h3>
+            <svg class="ic"><use href="#i-mail" /></svg>Contact
+          </h3>
+          <a id="f-wa" href="#" target="_blank" rel="noopener noreferrer"
+            ><svg class="ic"><use href="#i-wa" /></svg>WhatsApp: +880
+            1748-127559</a
+          >
+          <div class="sub">Facebook</div>
+          <a
+            href="https://www.facebook.com/fragroot"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><svg class="ic"><use href="#i-fb" /></svg>Fragroot</a
+          >
+          <div class="sub">Instagram</div>
+          <a
+            href="https://www.instagram.com/fragroot9/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><svg class="ic"><use href="#i-ig" /></svg>fragroot9</a
+          >
+          <div class="sub">Email</div>
+          <a href="mailto:fragroot9@gmail.com"
+            ><svg class="ic"><use href="#i-mail" /></svg>fragroot9@gmail.com</a
+          >
+        </section>
+        <section>
+          <h3>
+            <svg class="ic"><use href="#i-shield" /></svg>Information
+          </h3>
+          <button type="button" class="plink" data-pol="shipping">
+            <svg class="ic"><use href="#i-truck" /></svg>Shipping &amp; Delivery
+          </button>
+          <button type="button" class="plink" data-pol="returns">
+            <svg class="ic"><use href="#i-undo" /></svg>Return &amp; Refund
+            Policy
+          </button>
+          <button type="button" class="plink" data-pol="privacy">
+            <svg class="ic"><use href="#i-shield" /></svg>Privacy Policy
+          </button>
+        </section>
+        <section>
+          <h3>
+            <svg class="ic"><use href="#i-card" /></svg>Payment
+          </h3>
+          <p>We accept payment via bKash, Nagad, Bank NPSB</p>
+          <div class="badges">
+            <span>bKash</span><span>Nagad</span><span>Bank NPSB</span>
+          </div>
+        </section>
+        <section class="about">
+          <h3>
+            <svg class="ic"><use href="#i-info" /></svg>About us
+          </h3>
+          <p id="about-txt"></p>
+        </section>
+      </div>
+    </footer>
+
+    <div id="bar">
+      <button
+        type="button"
+        id="tg"
+        aria-expanded="false"
+        aria-label="Show cart list"
+      >
+        <svg class="ic"><use href="#i-up" /></svg>
+      </button>
+      <div class="in">
+        <div id="panel" hidden></div>
+        <div class="row">
+          <div class="sum" id="sum"></div>
+          <button type="button" class="send" id="co" disabled>
+            <svg class="ic"><use href="#i-cart" /></svg>Checkout
+          </button>
+        </div>
+      </div>
+    </div>
+    <dialog id="ck">
+      <h2>Checkout</h2>
+      <div class="dsum" id="ck-sum"></div>
+      <label for="f-name">Name</label>
+      <input id="f-name" autocomplete="name" required />
+      <label for="f-phone">Contact no</label>
+      <input
+        id="f-phone"
+        type="tel"
+        inputmode="tel"
+        autocomplete="tel"
+        required
+      />
+      <label for="f-addr">Shipping address</label>
+      <textarea id="f-addr" autocomplete="street-address" required></textarea>
+      <button type="button" class="dlink" id="dl-open">
+        See delivery charge
+      </button>
+      <div class="terms">
+        <label
+          ><input type="checkbox" id="f-terms" /><span
+            >I have read and agree to the Terms and Conditions, including the
+            <button type="button" class="dlink" data-pol="shipping">
+              Shipping &amp; Delivery
+            </button>
+            and
+            <button type="button" class="dlink" data-pol="returns">
+              Return &amp; Refund Policy</button
+            >.</span
+          ></label
+        >
+      </div>
+      <div class="dbtns">
+        <a
+          class="send"
+          id="wa"
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-disabled="true"
+          ><svg class="ic"><use href="#i-wa" /></svg>Send on WhatsApp</a
+        >
+        <button type="button" class="send alt" id="ms" disabled>
+          <svg class="ic"><use href="#i-msg" /></svg>Copy Order and Send to
+          Messenger
+        </button>
+      </div>
+      <div class="dbtns">
+        <button type="button" class="close" id="ck-close">Back to cart</button>
+      </div>
+    </dialog>
+    <dialog id="bg">
+      <h2 id="bg-t">Bottles</h2>
+      <div id="bg-g"></div>
+      <div class="dbtns">
+        <button type="button" class="close" id="bg-close">Close</button>
+      </div>
+    </dialog>
+    <dialog id="dl">
+      <h2>Delivery charge</h2>
+      <div id="dl-body"></div>
+      <div class="dbtns">
+        <button type="button" class="close" id="dl-close">Close</button>
+      </div>
+    </dialog>
+    <dialog id="cp">
+      <p>Your order is copied. Now just paste it into messenger</p>
+      <div class="dbtns">
+        <a
+          class="send"
+          id="ms-go"
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><svg class="ic"><use href="#i-msg" /></svg>Send on Messenger</a
+        >
+        <button type="button" class="close" id="cp-close">Close</button>
+      </div>
+    </dialog>
+    <dialog id="pd">
+      <h2 id="pd-t"></h2>
+      <div id="pd-b"></div>
+      <div class="dbtns">
+        <button type="button" class="close" id="pd-close">Close</button>
+      </div>
+    </dialog>
+    <button type="button" id="top" aria-label="Back to top" hidden>
+      <svg class="ic"><use href="#i-up" /></svg>
+    </button>
+    <dialog id="gd">
+      <h2>Free gift available</h2>
+      <p id="gd-msg"></p>
+      <div class="dbtns">
+        <button type="button" class="send" id="gd-choose">Choose gift</button>
+        <button type="button" class="close" id="gd-skip">
+          Continue without gift
+        </button>
+      </div>
+    </dialog>
+    <dialog id="im">
+      <img id="im-img" alt="" />
+      <p id="im-cap"></p>
+      <div class="dbtns">
+        <button type="button" class="close" id="im-close">Close</button>
+      </div>
+    </dialog>
+    <div id="toast" role="status"></div>
+
+    <script>
+      // All editable data (items, prices, contacts, policies) is in products.json.
+      // This site reads products.json (same folder). Logos are the PNG files listed in it.
+      var WHATSAPP_NUMBER = "",
+        MESSENGER_PERFUME = "",
+        MESSENGER_OIL = "",
+        CURRENCY = "৳",
+        BRAND = "",
+        ABOUT = { perfume: "", attar: "" };
+      var TAGLINES = {
+        perfume: "100% Authentic Perfumes",
+        attar: "Best Quality Perfume Oils",
+      };
+      var GIFT_RATE = 0.5;
+      var NAMES = { perfume: "", attar: "" },
+        LOGO_IMG = { perfume: "", attar: "" },
+        LABEL = { perfume: "Perfume", attar: "Attar & Oil" };
+      var DELIVERY_NOTE = "",
+        DELIVERY_RATES = [],
+        DELIVERY_ZONES = [],
+        POLICIES = {},
+        BOTTLES = [],
+        PBOTTLES = [],
+        PB_ML = 30,
+        GALLERY = { perfume: [], attar: [] },
+        DATA = { perfume: [], attar: [] };
+
+      var ICON = {
+        perfume:
+          '<svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" aria-hidden="true"><rect x="24" y="6" width="16" height="10" rx="2"/><path d="M28 16v6h8v-6"/><rect x="14" y="22" width="36" height="36" rx="8"/><path d="M24 38h16"/></svg>',
+        attar:
+          '<svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" aria-hidden="true"><path d="M32 6C22 20 14 29 14 40a18 18 0 0 0 36 0C50 29 42 20 32 6z"/><path d="M24 42a8 8 0 0 0 8 8"/></svg>',
+      };
+      var tab = "perfume",
+        cart = {},
+        gifts = {},
+        Q = { perfume: "", attar: "" },
+        bsel = {},
+        typeSel = "All",
+        brandSel = "All",
+        SORT = {
+          perfume: { by: "default", size: 0 },
+          attar: { by: "default", size: 0 },
+        };
+      var $ = function (i) {
+        return document.getElementById(i);
+      };
+      var fmt = function (n) {
+        return CURRENCY + n.toLocaleString("en-US");
+      };
+      var esc = function (s) {
+        return String(s).replace(/[&<>"]/g, function (c) {
+          return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];
+        });
+      };
+      var keyOf = function (t, id, ml, b) {
+        return t + "|" + id + "|" + ml + "|" + (b || "");
+      };
+
+      function find(k) {
+        var a = k.split("|"),
+          p = DATA[a[0]].filter(function (x) {
+            return x.id === a[1];
+          })[0];
+        var s = p.sizes.filter(function (x) {
+            return x.ml == a[2];
+          })[0],
+          b = a[3] || "";
+        return { t: a[0], p: p, s: s, b: b, unit: s.price + bottleExtra(s, b, a[0]) };
+      }
+      function stepHtml(key, q) {
+        var k = esc(key);
+        return (
+          '<div class="step"><button type="button" data-a="-1" data-k="' +
+          k +
+          '" aria-label="Decrease">−</button><span>' +
+          q +
+          '</span><button type="button" data-a="1" data-k="' +
+          k +
+          '" aria-label="Increase">+</button></div>'
+        );
+      }
+      function bottlesFor(t, ml) {
+        var list = t === "attar" ? BOTTLES : t === "perfume" ? PBOTTLES : [];
+        return list.filter(function (b) {
+          return b.ml == null || +b.ml === 0 || +b.ml === +ml;
+        }).filter(function (b) {
+          return !(+b.ml === 0 && list.some(function (other) {
+            return other.name === b.name && +other.ml === +ml && +ml !== 0;
+          }));
+        });
+      }
+      function bottleExtra(s, b, t) {
+        if (!b) return 0;
+        if (s.bottles && s.bottles[b] != null) return +s.bottles[b];
+        var options = bottlesFor(t || "attar", s.ml),
+          g = options.filter(function (x) {
+            return x.name === b && +x.ml === +s.ml;
+          })[0] || options.filter(function (x) {
+          return x.name === b;
+        })[0];
+        return g ? +g.price : 0;
+      }
+      var LS_KEY = "perfume_cart_v1";
+      function saveCart() {
+        try {
+          localStorage.setItem(
+            LS_KEY,
+            JSON.stringify({ cart: cart, gifts: gifts }),
+          );
+        } catch (e) {}
+      }
+      function loadCart() {
+        try {
+          var d = JSON.parse(localStorage.getItem(LS_KEY) || "null");
+          if (!d) return;
+          Object.keys(d.cart || {}).forEach(function (k) {
+            var q = parseInt(d.cart[k], 10);
+            if (!(q > 0)) return;
+            try {
+              var f = find(k);
+              if (f.p.soldOut || f.s.soldOut) return;
+              if (
+                f.b &&
+                !bottlesFor(f.t, f.s.ml).some(function (b) {
+                  return b.name === f.b;
+                })
+              )
+                return;
+              cart[k] = q;
+            } catch (e) {}
+          });
+          Object.keys(d.gifts || {}).forEach(function (id) {
+            var o = DATA.attar.filter(function (x) {
+                return x.id === id;
+              })[0],
+              q = parseInt(d.gifts[id], 10);
+            if (o && o.giftable && !o.soldOut && q > 0) gifts[id] = q;
+          });
+        } catch (e) {}
+      }
+      function paidOils() {
+        return Object.keys(cart)
+          .filter(function (k) {
+            return k.split("|")[0] === "attar";
+          })
+          .reduce(function (n, k) {
+            return n + cart[k];
+          }, 0);
+      }
+      function giftAllow() {
+        return Math.floor(paidOils() * GIFT_RATE);
+      }
+      function giftUsed() {
+        return Object.keys(gifts).reduce(function (n, id) {
+          return n + gifts[id];
+        }, 0);
+      }
+      function trimGifts() {
+        var extra = giftUsed() - giftAllow();
+        Object.keys(gifts)
+          .reverse()
+          .forEach(function (id) {
+            while (extra > 0 && gifts[id] > 0) {
+              gifts[id]--;
+              extra--;
+            }
+            if (!gifts[id]) delete gifts[id];
+          });
+      }
+      function giftChange(id, d) {
+        if (d > 0 && giftUsed() >= giftAllow()) return;
+        var q = (gifts[id] || 0) + d;
+        if (q <= 0) delete gifts[id];
+        else gifts[id] = q;
+        render();
+      }
+      function giftBanner() {
+        if (
+          tab !== "attar" ||
+          !DATA.attar.some(function (p) {
+            return p.giftable && !p.soldOut;
+          })
+        )
+          return "";
+        var a = giftAllow(),
+          u = giftUsed(),
+          left = a - u;
+        var rate =
+          GIFT_RATE === 0.5 ? "half" : Math.round(GIFT_RATE * 100) + "%";
+        var msg = a
+          ? "You can choose " +
+            left +
+            " more free gift oil" +
+            (left === 1 ? "" : "s") +
+            " (" +
+            u +
+            " of " +
+            a +
+            " used)."
+          : "Add perfume oils to unlock free gifts.";
+        return (
+          '<div class="gbanner"><svg class="ic"><use href="#i-gift"/></svg><span><b>Free gift:</b> choose giftable oils, up to ' +
+          rate +
+          " the number of perfume oils you buy. " +
+          msg +
+          "</span></div>"
+        );
+      }
+      function giftHtml(p) {
+        if (tab !== "attar" || !p.giftable || p.soldOut) return "";
+        var g = gifts[p.id] || 0,
+          rem = giftAllow() - giftUsed(),
+          id = esc(p.id);
+        var ctl = g
+          ? '<div class="step"><button type="button" data-g="' +
+            id +
+            '" data-a="-1" aria-label="Decrease gift">−</button><span>' +
+            g +
+            '</span><button type="button" data-g="' +
+            id +
+            '" data-a="1" aria-label="Increase gift"' +
+            (rem > 0 ? "" : " disabled") +
+            ">+</button></div>"
+          : '<button type="button" class="gbtn" data-g="' +
+            id +
+            '" data-a="1"' +
+            (rem > 0 ? "" : " disabled") +
+            ">Choose as gift</button>";
+        return (
+          '<div class="gift"><span class="gl"><svg class="ic"><use href="#i-gift"/></svg>Free gift · 1ml max</span>' +
+          ctl +
+          "</div>"
+        );
+      }
+      function giftPanelHtml() {
+        var ids = Object.keys(gifts);
+        if (!ids.length) return "";
+        var rem = giftAllow() - giftUsed();
+        return (
+          "<h3><span>Free gift</span><span>" +
+          giftUsed() +
+          " of " +
+          giftAllow() +
+          " used</span></h3>" +
+          ids
+            .map(function (id) {
+              var o = DATA.attar.filter(function (x) {
+                return x.id === id;
+              })[0];
+              if (!o) return "";
+              return (
+                '<div class="li"><span>' +
+                esc(o.name) +
+                '</span><span class="ctl"><button type="button" data-g="' +
+                esc(id) +
+                '" data-a="-1" aria-label="Decrease">−</button><b>' +
+                gifts[id] +
+                '</b><button type="button" data-g="' +
+                esc(id) +
+                '" data-a="1" aria-label="Increase"' +
+                (rem > 0 ? "" : " disabled") +
+                ">+</button></span><span>Free</span></div>"
+              );
+            })
+            .join("")
+        );
+      }
+      function change(k, d) {
+        var f = find(k);
+        if (d > 0 && (f.p.soldOut || f.s.soldOut)) return;
+        var q = (cart[k] || 0) + d;
+        if (q <= 0) delete cart[k];
+        else cart[k] = q;
+        render();
+      }
+      function groups() {
+        return ["perfume", "attar"].map(function (t) {
+          var items = Object.keys(cart)
+            .filter(function (k) {
+              return k.split("|")[0] === t;
+            })
+            .map(function (k) {
+              var f = find(k);
+              return {
+                k: k,
+                name: f.p.name,
+                ml: f.s.ml,
+                b: f.b,
+                qty: cart[k],
+                amt: f.unit * cart[k],
+              };
+            });
+          return {
+            t: t,
+            items: items,
+            amt: items.reduce(function (a, i) {
+              return a + i.amt;
+            }, 0),
+            ml: items.reduce(function (a, i) {
+              return a + i.ml * i.qty;
+            }, 0),
+          };
+        });
+      }
+      function message() {
+        var g = groups(),
+          out = "Hello, I would like to order:\n" + custText(),
+          amt = 0,
+          ml = 0;
+        g.forEach(function (x) {
+          if (!x.items.length) return;
+          amt += x.amt;
+          ml += x.ml;
+          out +=
+            "\n" +
+            LABEL[x.t].toUpperCase() +
+            "\n" +
+            x.items
+              .map(function (i) {
+                return (
+                  "• " +
+                  i.name +
+                  " " +
+                  i.ml +
+                  "ml" +
+                  (i.b ? " (" + i.b + " bottle)" : "") +
+                  " x " +
+                  i.qty +
+                  " = " +
+                  fmt(i.amt)
+                );
+              })
+              .join("\n") +
+            "\nSubtotal: " +
+            fmt(x.amt) +
+            " (" +
+            x.ml +
+            " ml)\n";
+        });
+        var gi = Object.keys(gifts);
+        if (gi.length)
+          out +=
+            "\nFREE GIFT (perfume oil, 1ml max)\n" +
+            gi
+              .map(function (id) {
+                var o = DATA.attar.filter(function (x) {
+                  return x.id === id;
+                })[0];
+                return "• " + (o ? o.name : id) + " x " + gifts[id] + " = Free";
+              })
+              .join("\n") +
+            "\n";
+        return (
+          out +
+          "\nTOTAL: " +
+          fmt(amt) +
+          " | " +
+          ml +
+          " ml" +
+          "\n\nI have read and agree to the Terms and Conditions (Shipping & Delivery, Return & Refund Policy)."
+        );
+      }
+      function imgHtml(p) {
+        if (p.image)
+          return (
+            '<button type="button" class="pimg" data-img="' +
+            esc(p.image) +
+            '" data-cap="' +
+            esc(p.name) +
+            '" aria-label="View photo of ' +
+            esc(p.name) +
+            '"><img src="' +
+            esc(p.image) +
+            '" alt="" width="104" height="104" loading="lazy"></button>'
+          );
+        return '<div class="pimg ph" aria-hidden="true">' + ICON[tab] + "</div>";
+      }
+      function render() {
+        trimGifts();
+        saveCart();
+        // logo + tabs
+        document.documentElement.dataset.brand = tab;
+        $("tagline").textContent = TAGLINES[tab] || "";
+        $("about-txt").textContent =
+          ABOUT[tab] || "About us details will be added soon.";
+        var nm = NAMES[tab] || BRAND;
+        $("logo").innerHTML = LOGO_IMG[tab]
+          ? '<img alt="' + esc(nm) + '" src="' + esc(LOGO_IMG[tab]) + '">'
+          : ICON[tab] +
+            "<b>" +
+            esc(nm) +
+            "</b><small>" +
+            esc(LABEL[tab]) +
+            "</small>";
+        ["perfume", "attar"].forEach(function (t) {
+          $("t-" + t).classList.toggle("on", t === tab);
+          $("t-" + t).setAttribute("aria-selected", t === tab);
+        });
+        // product list (filtered by this tab's own search)
+        var types = [];
+        DATA.attar.forEach(function (p) {
+          if (p.type && types.indexOf(p.type) < 0) types.push(p.type);
+        });
+        if (types.indexOf(typeSel) < 0) typeSel = "All";
+        $("q").placeholder = "Search " + LABEL[tab].toLowerCase();
+        var brands = [],
+          mls = [];
+        DATA[tab].forEach(function (p) {
+          if (p.brand && brands.indexOf(p.brand) < 0) brands.push(p.brand);
+          p.sizes.forEach(function (s) {
+            if (mls.indexOf(s.ml) < 0) mls.push(s.ml);
+          });
+        });
+        brands.sort();
+        mls.sort(function (a, b) {
+          return a - b;
+        });
+        if (brandSel !== "All" && brands.indexOf(brandSel) < 0)
+          brandSel = "All";
+        var st = SORT[tab];
+        if (mls.indexOf(st.size) < 0) st.size = mls[0];
+        var opt = function (v, l, cur) {
+          return (
+            '<option value="' +
+            esc(v) +
+            '"' +
+            (String(v) === String(cur) ? " selected" : "") +
+            ">" +
+            esc(l) +
+            "</option>"
+          );
+        };
+        var byOpts = [
+          ["default", "Default"],
+          ["name", "Name (A–Z)"],
+          ["brand", tab === "attar" ? "Type (A–Z)" : "Brand (A–Z)"],
+          ["price-asc", "Size price: low to high"],
+          ["price-desc", "Size price: high to low"],
+        ];
+        var tb = "";
+        if (tab === "perfume" && brands.length)
+          tb +=
+            '<label class="tl"><small>Brand</small><select id="s-brand">' +
+            opt("All", "All brands", brandSel) +
+            brands
+              .map(function (b) {
+                return opt(b, b, brandSel);
+              })
+              .join("") +
+            "</select></label>";
+        if (tab === "attar" && types.length)
+          tb +=
+            '<label class="tl"><small>Type</small><select id="s-type">' +
+            opt("All", "All types", typeSel) +
+            types
+              .map(function (t) {
+                return opt(t, t, typeSel);
+              })
+              .join("") +
+            "</select></label>";
+        tb +=
+          '<label class="tl"><small>Sort by</small><select id="s-sort">' +
+          byOpts
+            .map(function (o) {
+              return opt(o[0], o[1], st.by);
+            })
+            .join("") +
+          "</select></label>";
+        if (st.by.indexOf("price") === 0)
+          tb +=
+            '<label class="tl"><small>Size</small><select id="s-size">' +
+            mls
+              .map(function (m) {
+                return opt(m, m + "ml", st.size);
+              })
+              .join("") +
+            "</select></label>";
+        $("tools").innerHTML = tb;
+        var term = (Q[tab] || "").trim().toLowerCase();
+        var shown = DATA[tab].filter(function (p) {
+          var okT = tab !== "attar" || typeSel === "All" || p.type === typeSel;
+          var okB =
+            tab !== "perfume" || brandSel === "All" || p.brand === brandSel;
+          return (
+            okT &&
+            okB &&
+            (!term ||
+              (p.name + " " + (p.brand || "") + " " + (p.type || ""))
+                .toLowerCase()
+                .indexOf(term) > -1)
+          );
+        });
+        if (st.by !== "default") {
+          var nm = function (a, b) {
+            return a.name.localeCompare(b.name, undefined, {
+              numeric: true,
+              sensitivity: "base",
+            });
+          };
+          var pr = function (p) {
+            var z = p.sizes.filter(function (x) {
+              return x.ml == st.size;
+            })[0];
+            return z ? z.price : null;
+          };
+          shown = shown.slice().sort(function (a, b) {
+            if (st.by === "name") return nm(a, b);
+            if (st.by === "brand") {
+              var ka = (tab === "attar" ? a.type : a.brand) || "",
+                kb = (tab === "attar" ? b.type : b.brand) || "";
+              return ka.localeCompare(kb) || nm(a, b);
+            }
+            var pa = pr(a),
+              pb = pr(b);
+            if (pa === null && pb === null) return nm(a, b);
+            if (pa === null) return 1;
+            if (pb === null) return -1;
+            return (st.by === "price-asc" ? pa - pb : pb - pa) || nm(a, b);
+          });
+        }
+        $("list").innerHTML =
+          giftBanner() +
+          (shown.length
+            ? shown
+                .map(function (p) {
+                  return (
+                    '<div class="card"><div class="chead">' +
+                    imgHtml(p) +
+                    "<div><h2>" +
+                    esc(p.name) +
+                    '</h2><div class="brand">' +
+                    esc(p.type || p.brand || "") +
+                    '</div></div></div><div class="sizes">' +
+                    p.sizes
+                      .map(function (s) {
+                        if (p.soldOut || s.soldOut)
+                          return (
+                            '<div class="size out"><button type="button" class="pick" disabled aria-label="' +
+                            s.ml +
+                            'ml, stock out"><b>' +
+                            s.ml +
+                            "ml</b><span>Stock out</span></button></div>"
+                          );
+                        var BL = bottlesFor(tab, s.ml),
+                          useB = BL.length,
+                          bk = p.id + "|" + s.ml;
+                        var b = useB ? bsel[bk] || BL[0].name : "";
+                        var k = esc(keyOf(tab, p.id, s.ml, b)),
+                          q = cart[keyOf(tab, p.id, s.ml, b)] || 0,
+                          steps = "",
+                          on = false;
+                        if (useB) {
+                          BL.forEach(function (o) {
+                            var kk = keyOf(tab, p.id, s.ml, o.name),
+                              n = cart[kk] || 0;
+                            if (n) {
+                              on = true;
+                              steps +=
+                                '<div class="vrow"><small>' +
+                                esc(o.name) +
+                                "</small>" +
+                                stepHtml(kk, n) +
+                                "</div>";
+                            }
+                          });
+                        } else if (q) {
+                          on = true;
+                          steps = stepHtml(keyOf(tab, p.id, s.ml, b), q);
+                        }
+                        var sel = useB
+                          ? '<label class="bsel"><small>Bottle</small><select data-b="' +
+                            bk +
+                            '" aria-label="Bottle for ' +
+                            s.ml +
+                            'ml">' +
+                            BL.map(function (o) {
+                              var ex = bottleExtra(s, o.name, tab);
+                              return (
+                                '<option value="' +
+                                esc(o.name) +
+                                '"' +
+                                (o.name === b ? " selected" : "") +
+                                ">" +
+                                esc(o.name) +
+                                (ex ? " +" + ex : "") +
+                                "</option>"
+                              );
+                            }).join("") +
+                            "</select></label>"
+                          : "";
+                        return (
+                          '<div class="size' +
+                          (on ? " on" : "") +
+                          '"><button type="button" class="pick" data-a="1" data-k="' +
+                          k +
+                          '"><b>' +
+                          s.ml +
+                          "ml</b><span>" +
+                          fmt(s.price + bottleExtra(s, b, tab)) +
+                          "</span></button>" +
+                          sel +
+                          steps +
+                          "</div>"
+                        );
+                      })
+                      .join("") +
+                    "</div>" +
+                    giftHtml(p) +
+                    "</div>"
+                  );
+                })
+                .join("")
+            : '<p class="dnote" style="grid-column:1/-1">No items found.</p>');
+        // cart
+        var g = groups(),
+          amt = 0,
+          ml = 0,
+          n = 0;
+        g.forEach(function (x) {
+          amt += x.amt;
+          ml += x.ml;
+          x.items.forEach(function (i) {
+            n += i.qty;
+          });
+        });
+        $("sum").innerHTML =
+          "Total: " +
+          fmt(amt) +
+          "<small>" +
+          ml +
+          " ml · " +
+          n +
+          " item" +
+          (n === 1 ? "" : "s") +
+          (giftUsed()
+            ? " · " + giftUsed() + " free gift" + (giftUsed() === 1 ? "" : "s")
+            : "") +
+          "</small>";
+        $("panel").innerHTML = n
+          ? '<div class="pr"><button type="button" data-reset="1" aria-label="Clear cart" title="Clear cart"><svg class="ic"><use href="#i-trash" /></svg>Clear cart</button></div>' +
+            g
+              .filter(function (x) {
+                return x.items.length;
+              })
+              .map(function (x) {
+                return (
+                  "<h3><span>" +
+                  esc(LABEL[x.t]) +
+                  "</span><span>" +
+                  x.ml +
+                  " ml · " +
+                  fmt(x.amt) +
+                  "</span></h3>" +
+                  x.items
+                    .map(function (i) {
+                      return (
+                        '<div class="li"><span>' +
+                        esc(i.name) +
+                        " " +
+                        i.ml +
+                        "ml" +
+                        (i.b ? " · " + esc(i.b) : "") +
+                        '</span><span class="ctl"><button type="button" data-k="' +
+                        esc(i.k) +
+                        '" data-a="-1" aria-label="Decrease">−</button><b>' +
+                        i.qty +
+                        '</b><button type="button" data-k="' +
+                        esc(i.k) +
+                        '" data-a="1" aria-label="Increase">+</button></span><span>' +
+                        fmt(i.amt) +
+                        "</span></div>"
+                      );
+                    })
+                    .join("")
+                );
+              })
+              .join("")
+          : '<div class="empty">Your cart is empty.</div>';
+        $("panel").innerHTML += giftPanelHtml();
+        $("co").disabled = !n;
+      }
+      function toast(t) {
+        var el = $("toast");
+        el.textContent = t;
+        el.classList.add("show");
+        setTimeout(function () {
+          el.classList.remove("show");
+        }, 3500);
+      }
+      $("list").addEventListener("click", function (e) {
+        var im = e.target.closest("button[data-img]");
+        if (im) {
+          $("im-img").src = im.dataset.img;
+          $("im-cap").textContent = im.dataset.cap || "";
+          $("im").showModal();
+          return;
+        }
+        var b = e.target.closest("button[data-k]");
+        if (b) {
+          change(b.dataset.k, +b.dataset.a);
+          return;
+        }
+        var g = e.target.closest("button[data-g]");
+        if (g) giftChange(g.dataset.g, +g.dataset.a);
+      });
+      document.querySelector(".tabs").addEventListener("click", function (e) {
+        var b = e.target.closest("button[data-tab]");
+        if (b) {
+          tab = b.dataset.tab;
+          $("q").value = Q[tab];
+          render();
+        }
+      });
+      $("tg").addEventListener("click", function () {
+        var open = $("panel").hidden;
+        $("panel").hidden = !open;
+        $("tg").setAttribute("aria-expanded", open);
+      });
+      function hasType(t) {
+        return Object.keys(cart).some(function (k) {
+          return k.split("|")[0] === t;
+        });
+      }
+      function msUser() {
+        return hasType("attar") ? MESSENGER_OIL : MESSENGER_PERFUME;
+      }
+      function custText() {
+        var v = function (i) {
+          return $(i) ? $(i).value.trim() : "";
+        };
+        return (
+          "\nName: " +
+          v("f-name") +
+          "\nContact: " +
+          v("f-phone") +
+          "\nShipping address: " +
+          v("f-addr") +
+          "\n"
+        );
+      }
+      function refreshLinks() {
+        var ok =
+          $("f-name").value.trim() &&
+          $("f-phone").value.trim() &&
+          $("f-addr").value.trim() &&
+          $("f-terms").checked;
+        $("wa").setAttribute("aria-disabled", ok ? "false" : "true");
+        $("ms").disabled = !ok;
+        $("wa").href = ok
+          ? "https://wa.me/" +
+            WHATSAPP_NUMBER +
+            "?text=" +
+            encodeURIComponent(message())
+          : "#";
+        $("ms-go").href = "https://m.me/" + msUser();
+      }
+      function openCheckout() {
+        var g = groups(),
+          amt = 0,
+          ml = 0;
+        g.forEach(function (x) {
+          amt += x.amt;
+          ml += x.ml;
+        });
+        $("ck-sum").innerHTML =
+          "Items total: " +
+          fmt(amt) +
+          "<small>" +
+          ml +
+          " ml · delivery charge not included</small>";
+        refreshLinks();
+        $("ck").showModal();
+      }
+      $("co").addEventListener("click", function () {
+        var left = giftAllow() - giftUsed();
+        if (
+          left > 0 &&
+          DATA.attar.some(function (p) {
+            return p.giftable && !p.soldOut;
+          })
+        ) {
+          $("gd-msg").textContent =
+            "You can still choose " +
+            left +
+            " free gift oil" +
+            (left === 1 ? "" : "s") +
+            " (1ml max each). You can choose now or continue without a gift.";
+          $("gd").showModal();
+        } else openCheckout();
+      });
+      $("gd-choose").addEventListener("click", function () {
+        $("gd").close();
+        $("panel").hidden = true;
+        $("tg").setAttribute("aria-expanded", "false");
+        tab = "attar";
+        $("q").value = Q[tab];
+        render();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+      $("gd-skip").addEventListener("click", function () {
+        $("gd").close();
+        openCheckout();
+      });
+      ["f-name", "f-phone", "f-addr"].forEach(function (i) {
+        $(i).addEventListener("input", refreshLinks);
+      });
+      $("ck-close").addEventListener("click", function () {
+        $("ck").close();
+      });
+      $("dl-open").addEventListener("click", function () {
+        var tbl = function (rows) {
+          return (
+            "<table>" +
+            rows
+              .map(function (r) {
+                return (
+                  "<tr><td>" +
+                  esc(r.weight || r.area) +
+                  "</td><td>" +
+                  esc(r.charge) +
+                  "</td></tr>"
+                );
+              })
+              .join("") +
+            "</table>"
+          );
+        };
+        var html =
+          DELIVERY_ZONES.map(function (z) {
+            return "<h3>" + esc(z.name) + "</h3>" + tbl(z.rates);
+          }).join("") + (DELIVERY_RATES.length ? tbl(DELIVERY_RATES) : "");
+        if (DELIVERY_NOTE)
+          html += '<p class="dnote">' + esc(DELIVERY_NOTE) + "</p>";
+        $("dl-body").innerHTML =
+          html ||
+          '<p class="dnote">Delivery charge rates will be added here soon.</p>';
+        $("dl").showModal();
+      });
+      $("see-b").addEventListener("click", function () {
+        var L = (GALLERY[tab] || []).filter(function (b) {
+          return b && (b.image || b.name);
+        });
+        $("bg-t").textContent = "Bottles — " + (LABEL[tab] || "");
+        $("bg-g").innerHTML = L.length
+          ? L.map(function (b) {
+              return (
+                "<figure>" +
+                (b.image
+                  ? '<img src="' + esc(b.image) + '" alt="' + esc(b.name || "") + '" loading="lazy">'
+                  : "") +
+                "<figcaption>" +
+                esc(b.name || "") +
+                "</figcaption></figure>"
+              );
+            }).join("")
+          : '<p class="dnote" style="grid-column:1/-1">Bottles will be added soon.</p>';
+        $("bg").showModal();
+      });
+      $("bg-close").addEventListener("click", function () {
+        $("bg").close();
+      });
+      $("dl-close").addEventListener("click", function () {
+        $("dl").close();
+      });
+      function copyText(t) {
+        var ta = document.createElement("textarea");
+        ta.value = t;
+        ta.setAttribute("readonly", "");
+        ta.style.position = "fixed";
+        ta.style.opacity = "0";
+        ($("ck").open ? $("ck") : document.body).appendChild(ta);
+        ta.select();
+        try {
+          document.execCommand("copy");
+        } catch (e) {}
+        ta.remove();
+      }
+      $("ms").addEventListener("click", function () {
+        var t = message();
+        copyText(t);
+        try {
+          if (navigator.clipboard)
+            navigator.clipboard.writeText(t).catch(function () {});
+        } catch (e) {}
+        $("cp").showModal();
+      });
+      $("ms-go").addEventListener("click", function () {
+        setTimeout(function () {
+          $("cp").close();
+        }, 300);
+      });
+      $("cp-close").addEventListener("click", function () {
+        $("cp").close();
+      });
+      $("panel").addEventListener("click", function (e) {
+        if (e.target.closest("button[data-reset]")) {
+          cart = {};
+          gifts = {};
+          saveCart();
+          render();
+          return;
+        }
+        var b = e.target.closest("button[data-k]");
+        if (b) {
+          change(b.dataset.k, +b.dataset.a);
+          return;
+        }
+        var g = e.target.closest("button[data-g]");
+        if (g) giftChange(g.dataset.g, +g.dataset.a);
+      });
+      function openPolicy(e) {
+        var b = e.target.closest("[data-pol]");
+        if (!b) return;
+        var key = b.dataset.pol,
+          p = POLICIES[key] || {};
+        $("pd-t").textContent = p.title || b.textContent.trim();
+        var box = $("pd-b"),
+          body = (tab === "attar" && p.bodyAttar) || p.body || "";
+        if (/<[a-z!\/][\s\S]*>/i.test(body)) {
+          box.className = "htm";
+          box.innerHTML = body;
+        } else {
+          box.className = "txt";
+          box.textContent = body || "Details will be added soon.";
+        }
+        $("pd").showModal();
+      }
+      document.querySelector("footer").addEventListener("click", openPolicy);
+      $("ck").addEventListener("click", openPolicy);
+      $("f-terms").addEventListener("change", refreshLinks);
+      $("pd-close").addEventListener("click", function () {
+        $("pd").close();
+      });
+      $("q").addEventListener("input", function () {
+        Q[tab] = this.value;
+        render();
+      });
+      $("list").addEventListener("change", function (e) {
+        var sel = e.target.closest("select[data-b]");
+        if (sel) {
+          bsel[sel.dataset.b] = sel.value;
+          render();
+        }
+      });
+      $("tools").addEventListener("change", function (e) {
+        var id = e.target.id;
+        if (id === "s-brand") brandSel = e.target.value;
+        else if (id === "s-type") typeSel = e.target.value;
+        else if (id === "s-sort") SORT[tab].by = e.target.value;
+        else if (id === "s-size") SORT[tab].size = +e.target.value;
+        else return;
+        render();
+      });
+      function closeOnOutside(d) {
+        d.addEventListener("click", function (e) {
+          if (e.target !== d) return;
+          var r = d.getBoundingClientRect();
+          if (
+            e.clientX < r.left ||
+            e.clientX > r.right ||
+            e.clientY < r.top ||
+            e.clientY > r.bottom
+          )
+            d.close();
+        });
+      }
+      [$("pd"), $("dl"), $("im"), $("cp"), $("bg")].forEach(closeOnOutside);
+      $("im-close").addEventListener("click", function () {
+        $("im").close();
+      });
+      var topBtn = $("top"),
+        barEl = $("bar");
+      function onScroll() {
+        topBtn.hidden =
+          (window.pageYOffset || document.documentElement.scrollTop) < 300;
+      }
+      window.addEventListener("scroll", onScroll, { passive: true });
+      topBtn.addEventListener("click", function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+      function setBarH() {
+        document.documentElement.style.setProperty(
+          "--barh",
+          barEl.offsetHeight + "px",
+        );
+      }
+      if (window.ResizeObserver) new ResizeObserver(setBarH).observe(barEl);
+      setBarH();
+      onScroll();
+      function init(c) {
+        WHATSAPP_NUMBER = c.whatsapp;
+        MESSENGER_PERFUME = c.messengerPerfume;
+        MESSENGER_OIL = c.messengerOil;
+        CURRENCY = c.currency || CURRENCY;
+        BRAND = c.brand || "";
+        LOGO_IMG = c.logo || LOGO_IMG;
+        GIFT_RATE = c.giftRate != null ? c.giftRate : GIFT_RATE;
+        LABEL = c.labels || LABEL;
+        NAMES = c.names || NAMES;
+        DELIVERY_NOTE = (c.delivery || {}).note || "";
+        DELIVERY_RATES = (c.delivery || {}).rates || [];
+        DELIVERY_ZONES = (c.delivery || {}).zones || [];
+        POLICIES = c.policies || {};
+        ABOUT =
+          typeof c.about === "string"
+            ? { perfume: c.about, attar: c.about }
+            : Object.assign({ perfume: "", attar: "" }, c.about || {});
+        TAGLINES = Object.assign({}, TAGLINES, c.taglines || {});
+        DATA = c.products;
+        BOTTLES = c.bottles || [];
+        PBOTTLES = c.perfumeBottles || [];
+        PB_ML = c.perfumeBottleMl != null ? +c.perfumeBottleMl : 30;
+        GALLERY = Object.assign({ perfume: [], attar: [] }, c.bottleGallery || {});
+        $("f-wa").href = "https://wa.me/" + WHATSAPP_NUMBER;
+        loadCart();
+        render();
+      }
+      function load() {
+        var fail = function () {
+          $("list").innerHTML =
+            '<p class="dnote" style="grid-column:1/-1">Could not load products.json. Open this site through GitHub Pages (or any web server), and keep products.json in the same folder as index.html.</p>';
+        };
+        try {
+          fetch("products.json", { cache: "no-store" })
+            .then(function (r) {
+              if (!r.ok) throw 0;
+              return r.json();
+            })
+            .then(init)
+            .catch(function (e) {
+              console.error(e);
+              fail();
+            });
+        } catch (e) {
+          fail();
+        }
+      }
+      load();
+    </script>
+  </body>
+</html>

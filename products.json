@@ -1,0 +1,589 @@
+{
+ "brand": "Fragroot",
+ "currency": "৳",
+ "whatsapp": "8801748127559",
+ "messengerPerfume": "fragroot",
+ "messengerOil": "fragroot",
+ "labels": {
+  "perfume": "Perfume",
+  "attar": "Attar & Oil"
+ },
+ "logo": {
+  "perfume": "logo-fragroot.png",
+  "attar": "logo-fragroot.png"
+ },
+ "about": {
+  "perfume": "",
+  "attar": ""
+ },
+ "delivery": {
+  "note": "After 2 kg, ৳25 per kg will apply.",
+  "zones": [
+   {
+    "name": "Bogura to Bogura",
+    "rates": [
+     {
+      "weight": "Up to 500 gm",
+      "charge": "৳60"
+     },
+     {
+      "weight": "0.5 kg – 1 kg",
+      "charge": "৳70"
+     },
+     {
+      "weight": "1 kg – 2 kg",
+      "charge": "৳90"
+     }
+    ]
+   },
+   {
+    "name": "Bogura to Dhaka",
+    "rates": [
+     {
+      "weight": "Up to 500 gm",
+      "charge": "৳110"
+     },
+     {
+      "weight": "0.5 kg – 1 kg",
+      "charge": "৳130"
+     },
+     {
+      "weight": "1 kg – 2 kg",
+      "charge": "৳170"
+     }
+    ]
+   },
+   {
+    "name": "Bogura to Other District",
+    "rates": [
+     {
+      "weight": "Up to 500 gm",
+      "charge": "৳120"
+     },
+     {
+      "weight": "0.5 kg – 1 kg",
+      "charge": "৳145"
+     },
+     {
+      "weight": "1 kg – 2 kg",
+      "charge": "৳180"
+     }
+    ]
+   }
+  ]
+ },
+ "policies": {
+  "shipping": {
+   "title": "Shipping & Delivery",
+   "body": "\n<div style=\"max-width: 900px; margin: 0 auto; padding: 40px 20px; color: #444; font-family: Arial, sans-serif; line-height: 1.8;\">\n\n  <div style=\"text-align: center; margin-bottom: 50px;\">\n    <p style=\"margin: 0 0 8px; font-size: 15px; color: #888; letter-spacing: 1px;\">\n      Fragroot\n    </p>\n\n    <h1 style=\"margin: 0 0 12px; font-size: 32px; line-height: 1.3; color: #222; font-weight: 700;\">\n      শিপিং ও ডেলিভারি নীতিমালা\n    </h1>\n\n    <p style=\"margin: 0; font-size: 14px; color: #888;\">\n      সর্বশেষ হালনাগাদ: অক্টোবর ২০২৬\n    </p>\n  </div>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <p style=\"margin: 0;\">\n      Fragroot-এ কেনাকাটার জন্য ধন্যবাদ। এই নীতিমালায় আমাদের পণ্য ডেলিভারি, শিপিং চার্জ, অর্ডার নিশ্চিতকরণ, অর্ডার বাতিল এবং ডেলিভারি-সংক্রান্ত রিফান্ডের নিয়মাবলি ব্যাখ্যা করা হয়েছে।\n    </p>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ১. ডেলিভারি কভারেজ\n    </h2>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>১.১.</strong> Fragroot বাংলাদেশের সকল জেলায় Third Party কুরিয়ার সার্ভিসের মাধ্যমে পণ্য ডেলিভারি করে।\n    </p>\n\n    <p style=\"margin: 0;\">\n      <strong>১.২.</strong> কুরিয়ার সুবিধা, গ্রাহকের তথ্য যাচাই এবং আমাদের অর্ডার ভেরিফিকেশন প্রক্রিয়ার ওপর নির্ভর করে সারা দেশে ক্যাশ অন ডেলিভারি (COD) সুবিধা প্রদান করা হয়ে থাকে।\n    </p>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ২. ডেলিভারি চার্জ\n    </h2>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>২.১.</strong> ডেলিভারি চার্জ আমাদের কুরিয়ার পার্টনারের প্রযোজ্য সাধারণ রেট অনুযায়ী নির্ধারিত হবে।\n    </p>\n\n    <p style=\"margin: 0 0 10px;\">\n      <strong>২.২.</strong> সাধারণভাবে ডেলিভারি চার্জ আনুমানিকভাবে:\n    </p>\n\n    <ul style=\"margin: 0 0 12px; padding-left: 25px;\">\n      <li style=\"margin-bottom: 8px;\"><strong>বগুড়া:</strong> ৳৬০–৳৭০</li>\n      <li style=\"margin-bottom: 0;\"><strong>অন্যান্য জেলা/লোকেশন:</strong> ৳১২০–৳১৩০</li>\n    </ul>\n\n    <p style=\"margin: 0;\">\n      <strong>২.৩.</strong> কুরিয়ার রেট, ডেলিভারি লোকেশন, পার্সেলের ওজন/আকার অথবা অন্যান্য প্রযোজ্য চার্জের কারণে ডেলিভারি চার্জ পরিবর্তিত হতে পারে। অর্ডার নিশ্চিত করার সময় প্রযোজ্য ডেলিভারি চার্জ জানানো হবে।\n    </p>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ৩. অর্ডার নিশ্চিতকরণ ও অগ্রিম পেমেন্ট\n    </h2>\n\n    <h3 style=\"margin: 24px 0 14px; font-size: 19px; color: #333;\">\n      ৩.১. অর্ডার ভেরিফিকেশন\n    </h3>\n\n    <p style=\"margin: 0 0 10px;\">\n      অর্ডার নিশ্চিত করার জন্য গ্রাহককে সঠিকভাবে প্রদান করতে হবে:\n    </p>\n\n    <ul style=\"margin: 0 0 14px; padding-left: 25px;\">\n      <li style=\"margin-bottom: 8px;\">পূর্ণ নাম</li>\n      <li style=\"margin-bottom: 8px;\">সম্পূর্ণ ডেলিভারি ঠিকানা</li>\n      <li style=\"margin-bottom: 8px;\">সচল মোবাইল নম্বর</li>\n      <li style=\"margin-bottom: 0;\">ডেলিভারির জন্য প্রয়োজনীয় অন্যান্য তথ্য</li>\n    </ul>\n\n    <p style=\"margin: 0 0 24px;\">\n      Fragroot প্রয়োজনে অর্ডার নিশ্চিত করার আগে এসব তথ্য যাচাই করতে পারে।\n    </p>\n\n\n    <h3 style=\"margin: 24px 0 14px; font-size: 19px; color: #333;\">\n      ৩.২. অগ্রিম পেমেন্ট\n    </h3>\n\n    <p style=\"margin: 0 0 10px;\">\n      অর্ডার ও গ্রাহকের তথ্য যাচাইয়ের ভিত্তিতে Fragroot অগ্রিম হিসেবে নিম্নোক্ত অর্থ চাইতে পারে:\n    </p>\n\n    <ul style=\"margin: 0 0 14px; padding-left: 25px;\">\n      <li style=\"margin-bottom: 8px;\">প্রযোজ্য ডেলিভারি চার্জ</li>\n      <li style=\"margin-bottom: 8px;\"><strong>৳৪০ প্যাকেজিং চার্জ</strong></li>\n      <li style=\"margin-bottom: 0;\">প্রযোজ্য পার্সেল রিটার্ন চার্জ</li>\n    </ul>\n\n    <p style=\"margin: 0 0 12px;\">\n      অর্ডার নিশ্চিত করার আগে প্রযোজ্য অগ্রিমের পরিমাণ জানিয়ে দেওয়া হবে।\n    </p>\n\n    <p style=\"margin: 0;\">\n      তবে গ্রাহকের তথ্য ও পূর্ববর্তী ডেলিভারি ইতিহাস সন্তোষজনক হলে Fragroot ডেলিভারি চার্জ অগ্রিম না নিয়েও অর্ডার নিশ্চিত করতে পারে।\n    </p>\n\n\n    <h3 style=\"margin: 28px 0 14px; font-size: 19px; color: #333;\">\n      ৩.৩. ঝুঁকিপূর্ণ অর্ডার যাচাই\n    </h3>\n\n    <p style=\"margin: 0 0 12px;\">\n      কুরিয়ার তথ্য, পূর্ববর্তী ডেলিভারি ইতিহাস, একাধিকবার পার্সেল গ্রহণ না করা, অসম্পূর্ণ তথ্য বা অন্যান্য যৌক্তিক কারণে কোনো অর্ডার অতিরিক্ত যাচাইয়ের প্রয়োজন বলে বিবেচিত হলে Fragroot পণ্য পাঠানোর আগে আংশিক বা সম্পূর্ণ অগ্রিম পেমেন্ট চাইতে পারে।\n    </p>\n\n    <p style=\"margin: 0;\">\n      গ্রাহক নির্ধারিত অগ্রিম পেমেন্টে সম্মত না হলে Fragroot অর্ডারটি বাতিল করার অধিকার রাখে।\n    </p>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ৪. অর্ডার বাতিল\n    </h2>\n\n    <h3 style=\"margin: 24px 0 14px; font-size: 19px; color: #333;\">\n      ৪.১. ১ ঘণ্টার মধ্যে বাতিল\n    </h3>\n\n    <p style=\"margin: 0 0 12px;\">\n      Fragroot কর্তৃক অর্ডার নিশ্চিত করার সময় থেকে <strong>১ ঘণ্টার মধ্যে</strong> গ্রাহক অর্ডার বাতিলের অনুরোধ করতে পারবেন।\n    </p>\n\n    <p style=\"margin: 0;\">\n      অগ্রিম পেমেন্ট করা হয়ে থাকলে, প্রযোজ্য মানি ট্রান্সফার/পেমেন্ট প্রসেসিং খরচ বাদ দিয়ে অবশিষ্ট অর্থ ফেরত দেওয়া হবে।\n    </p>\n\n\n    <h3 style=\"margin: 28px 0 14px; font-size: 19px; color: #333;\">\n      ৪.২. ১ ঘণ্টার পর কিন্তু ডিসপ্যাচের আগে বাতিল\n    </h3>\n\n    <p style=\"margin: 0 0 12px;\">\n      অর্ডার প্যাকেজিং/প্রসেসিং পর্যায়ে চলে যাওয়ার পর গ্রাহক অর্ডার বাতিল করলে প্রযোজ্য প্যাকেজিং চার্জ অগ্রিম অর্থ থেকে কেটে নেওয়া হবে।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      প্যাকেজিং চার্জের ন্যূনতম পরিমাণ <strong>৳৪০</strong> এবং এই চার্জ নিয়ে দর-কষাকষি প্রযোজ্য নয়।\n    </p>\n\n    <p style=\"margin: 0;\">\n      এছাড়াও প্রযোজ্য মানি ট্রান্সফার/পেমেন্ট প্রসেসিং খরচ কেটে নেওয়া হতে পারে।\n    </p>\n\n\n    <h3 style=\"margin: 28px 0 14px; font-size: 19px; color: #333;\">\n      ৪.৩. ডিসপ্যাচের পর বাতিল / পার্সেল গ্রহণে অস্বীকৃতি\n    </h3>\n\n    <p style=\"margin: 0 0 10px;\">\n      নিম্নোক্ত পরিস্থিতিতে:\n    </p>\n\n    <ul style=\"margin: 0 0 14px; padding-left: 25px;\">\n      <li style=\"margin-bottom: 8px;\">পার্সেল কুরিয়ারের কাছে হস্তান্তর করা হয়েছে;</li>\n      <li style=\"margin-bottom: 8px;\">গ্রাহক পার্সেল গ্রহণ করতে অস্বীকৃতি জানিয়েছেন;</li>\n      <li style=\"margin-bottom: 8px;\">ডেলিভারি প্রচেষ্টার পরও গ্রাহক পার্সেল গ্রহণ করেননি;</li>\n      <li style=\"margin-bottom: 8px;\">গ্রাহকের সঙ্গে যোগাযোগ করা সম্ভব হয়নি;</li>\n      <li style=\"margin-bottom: 8px;\">ভুল বা অসম্পূর্ণ গ্রাহক তথ্যের কারণে পার্সেল ডেলিভারি সম্ভব হয়নি; অথবা</li>\n      <li style=\"margin-bottom: 0;\">গ্রাহক পার্সেল গ্রহণ করে পণ্য না খুলে ফেরত দিয়েছেন;</li>\n    </ul>\n\n    <p style=\"margin: 0 0 10px;\">\n      সেক্ষেত্রে প্রযোজ্য রিফান্ডের পরিমাণ থেকে নিম্নোক্ত খরচগুলো বাদ দেওয়া হবে:\n    </p>\n\n    <ul style=\"margin: 0; padding-left: 25px;\">\n      <li style=\"margin-bottom: 8px;\">সম্পূর্ণ ডেলিভারি চার্জ</li>\n      <li style=\"margin-bottom: 8px;\">প্রযোজ্য পার্সেল রিটার্ন চার্জ</li>\n      <li style=\"margin-bottom: 8px;\">প্যাকেজিং চার্জ</li>\n      <li style=\"margin-bottom: 0;\">মানি ট্রান্সফার/পেমেন্ট প্রসেসিং খরচ</li>\n    </ul>\n\n\n    <h3 style=\"margin: 28px 0 14px; font-size: 19px; color: #333;\">\n      ৪.৪. Fragroot কর্তৃক অর্ডার বাতিল\n    </h3>\n\n    <p style=\"margin: 0;\">\n      Fragroot-এর নিজস্ব কোনো ভুল বা কারণে অর্ডার বাতিল হলে গ্রাহকের প্রাপ্য অগ্রিম অর্থ সম্পূর্ণ ফেরত দেওয়া হবে।\n    </p>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ৫. ভুল গ্রাহক তথ্য\n    </h2>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৫.১.</strong> গ্রাহক সঠিক নাম, ঠিকানা, মোবাইল নম্বর এবং অন্যান্য ডেলিভারি তথ্য প্রদান করার জন্য দায়ী।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৫.২.</strong> ভুল, অসম্পূর্ণ, বিভ্রান্তিকর বা যোগাযোগ-অযোগ্য তথ্যের কারণে অর্ডার ডেলিভারি করা সম্ভব না হলে <strong>ধারা ৪.৩</strong> অনুযায়ী রিফান্ডের নিয়ম প্রযোজ্য হবে।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৫.৩.</strong> গ্রাহকের দেওয়া ভুল তথ্যের কারণে অতিরিক্ত কুরিয়ার চার্জ বা একাধিকবার ডেলিভারি প্রচেষ্টার খরচ হলে সেই অতিরিক্ত খরচও রিফান্ডের অর্থ থেকে কেটে নেওয়া হতে পারে।\n    </p>\n\n    <p style=\"margin: 0;\">\n      <strong>৫.৪.</strong> ডেলিভারি ব্যর্থতার কারণ Fragroot-এর ভুল হলে <strong>ধারা ৪.৪</strong> প্রযোজ্য হবে।\n    </p>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ৬. বিলম্বিত ডেলিভারি\n    </h2>\n\n    <p style=\"margin: 0 0 10px;\">\n      <strong>৬.১.</strong> নিম্নোক্ত কারণে ডেলিভারি সময়সীমা পরিবর্তিত হতে পারে:\n    </p>\n\n    <ul style=\"margin: 0 0 14px; padding-left: 25px;\">\n      <li style=\"margin-bottom: 8px;\">প্রতিকূল আবহাওয়া</li>\n      <li style=\"margin-bottom: 8px;\">প্রাকৃতিক দুর্যোগ</li>\n      <li style=\"margin-bottom: 8px;\">ধর্মঘট বা পরিবহন সমস্যা</li>\n      <li style=\"margin-bottom: 8px;\">সরকারি ছুটি</li>\n      <li style=\"margin-bottom: 8px;\">কুরিয়ারের কার্যক্রম-সংক্রান্ত সমস্যা</li>\n      <li style=\"margin-bottom: 8px;\">নিরাপত্তাজনিত বিধিনিষেধ</li>\n      <li style=\"margin-bottom: 8px;\">ভুল গ্রাহক তথ্য</li>\n      <li style=\"margin-bottom: 8px;\">গ্রাহকের অনুপস্থিতি</li>\n      <li style=\"margin-bottom: 0;\">Fragroot-এর নিয়ন্ত্রণের বাইরে থাকা অন্যান্য পরিস্থিতি</li>\n    </ul>\n\n    <p style=\"margin: 0;\">\n      <strong>৬.২.</strong> এমন পরিস্থিতিতে Fragroot কুরিয়ারের সঙ্গে যোগাযোগ করে সমস্যাটি সমাধানের জন্য যথাসম্ভব সহযোগিতা করবে।\n    </p>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ৭. পার্সেল খোলার পর\n    </h2>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৭.১.</strong> ডেলিভারি, অর্ডার বাতিল এবং না-খোলা পার্সেল-সংক্রান্ত বিষয়গুলো এই <strong>শিপিং ও ডেলিভারি নীতিমালার</strong> আওতাভুক্ত।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৭.২.</strong> গ্রাহক পার্সেল/পণ্যের প্যাকেজিং খোলার পর পণ্য-সংক্রান্ত কোনো সমস্যা থাকলে তা <strong>রিটার্ন ও রিফান্ড নীতিমালা</strong> অনুযায়ী বিবেচনা করা হবে।\n    </p>\n\n    <p style=\"margin: 0;\">\n      <strong>৭.৩.</strong> গ্রাহককে পার্সেল গ্রহণের সময় পার্সেল থেকে শুরু করে পণ্য বের করে সম্পূর্ণভাবে দেখানো পর্যন্ত একটি ধারাবাহিক <strong>আনবক্সিং ভিডিও ধারণ করার জন্য বিশেষভাবে পরামর্শ দেওয়া হচ্ছে</strong>।\n    </p>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 20px; font-size: 23px; color: #222;\">\n      রিফান্ডের সংক্ষিপ্ত হিসাব\n    </h2>\n\n    <div style=\"overflow-x: auto; width: 100%;\">\n      <table style=\"width: 100%; min-width: 650px; border-collapse: collapse; font-size: 15px; line-height: 1.6;\">\n        <thead>\n          <tr>\n            <th style=\"padding: 14px 16px; text-align: left; border: 1px solid #ddd; background-color: #f5f5f5; color: #222; font-weight: 700;\">\n              পরিস্থিতি\n            </th>\n            <th style=\"padding: 14px 16px; text-align: left; border: 1px solid #ddd; background-color: #f5f5f5; color: #222; font-weight: 700;\">\n              রিফান্ডের হিসাব\n            </th>\n          </tr>\n        </thead>\n\n        <tbody>\n          <tr>\n            <td style=\"padding: 14px 16px; border: 1px solid #ddd; vertical-align: top;\">\n              ১ ঘণ্টার মধ্যে বাতিল\n            </td>\n            <td style=\"padding: 14px 16px; border: 1px solid #ddd; vertical-align: top;\">\n              অগ্রিম − প্রযোজ্য মানি ট্রান্সফার/পেমেন্ট খরচ\n            </td>\n          </tr>\n\n          <tr>\n            <td style=\"padding: 14px 16px; border: 1px solid #ddd; vertical-align: top;\">\n              প্যাকেজিং শুরু হওয়ার পর বাতিল\n            </td>\n            <td style=\"padding: 14px 16px; border: 1px solid #ddd; vertical-align: top;\">\n              অগ্রিম − প্যাকেজিং চার্জ − প্রযোজ্য মানি ট্রান্সফার/পেমেন্ট খরচ\n            </td>\n          </tr>\n\n          <tr>\n            <td style=\"padding: 14px 16px; border: 1px solid #ddd; vertical-align: top;\">\n              ডিসপ্যাচের পর গ্রহণ না করা/ফেরত\n            </td>\n            <td style=\"padding: 14px 16px; border: 1px solid #ddd; vertical-align: top;\">\n              অগ্রিম − ডেলিভারি চার্জ − রিটার্ন চার্জ − প্যাকেজিং চার্জ − প্রযোজ্য মানি ট্রান্সফার/পেমেন্ট খরচ\n            </td>\n          </tr>\n\n          <tr>\n            <td style=\"padding: 14px 16px; border: 1px solid #ddd; vertical-align: top;\">\n              গ্রাহকের ভুল তথ্যের কারণে ডেলিভারি ব্যর্থ\n            </td>\n            <td style=\"padding: 14px 16px; border: 1px solid #ddd; vertical-align: top;\">\n              অগ্রিম − গ্রাহকসৃষ্ট ডেলিভারি ব্যর্থতার ক্ষেত্রে প্রযোজ্য সকল খরচ\n            </td>\n          </tr>\n\n          <tr>\n            <td style=\"padding: 14px 16px; border: 1px solid #ddd; vertical-align: top;\">\n              Fragroot কর্তৃক বাতিল\n            </td>\n            <td style=\"padding: 14px 16px; border: 1px solid #ddd; vertical-align: top;\">\n              প্রাপ্য অগ্রিম অর্থ সম্পূর্ণ ফেরত\n            </td>\n          </tr>\n        </tbody>\n      </table>\n    </div>\n\n    <p style=\"margin: 18px 0 0; padding: 14px 16px; background-color: #f8f8f8; border-left: 3px solid #888; font-size: 14px; color: #666;\">\n      <strong>বিশেষ দ্রষ্টব্য:</strong> রিফান্ডের প্রকৃত সময় পেমেন্ট পদ্ধতি, ব্যাংক, মোবাইল ফাইন্যান্সিয়াল সার্ভিস বা সংশ্লিষ্ট পেমেন্ট প্রদানকারীর ওপর নির্ভর করতে পারে।\n    </p>\n  </section>\n\n</div>\n```\n",
+   "bodyAttar": "<div style=\"max-width: 900px; margin: 0 auto; padding: 40px 20px; color: #444; font-family: Arial, sans-serif; line-height: 1.8;\">\n\n  <div style=\"text-align: center; margin-bottom: 50px;\">\n    <p style=\"margin: 0 0 8px; font-size: 15px; color: #888; letter-spacing: 1px;\">Fragroot</p>\n    <h1 style=\"margin: 0 0 12px; font-size: 32px; line-height: 1.3; color: #222; font-weight: 700;\">শিপিং ও ডেলিভারি নীতিমালা</h1>\n    <p style=\"margin: 0; font-size: 14px; color: #888;\">সর্বশেষ হালনাগাদ: অক্টোবর ২০২৬</p>\n  </div>\n\n  <p style=\"margin: 0 0 40px;\">\n    Fragroot-এ কেনাকাটার জন্য ধন্যবাদ। এই নীতিমালায় আমাদের পণ্য ডেলিভারি, শিপিং চার্জ, অর্ডার নিশ্চিতকরণ, অর্ডার বাতিল এবং ডেলিভারি-সংক্রান্ত রিফান্ডের নিয়মাবলি ব্যাখ্যা করা হয়েছে।\n  </p>\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; line-height: 1.4; color: #222; font-weight: 700;\">১. ডেলিভারি কভারেজ</h2>\n\n```\n<p style=\"margin: 0 0 12px;\">\n  <strong>১.১.</strong> Fragroot বাংলাদেশের সকল জেলায় Third Party কুরিয়ার সার্ভিসের মাধ্যমে পণ্য ডেলিভারি করে।\n</p>\n\n<p style=\"margin: 0;\">\n  <strong>১.২.</strong> কুরিয়ার সুবিধা, গ্রাহকের তথ্য যাচাই এবং আমাদের অর্ডার ভেরিফিকেশন প্রক্রিয়ার ওপর নির্ভর করে সারা দেশে ক্যাশ অন ডেলিভারি (COD) সুবিধা প্রদান করা হয়ে থাকে।\n</p>\n```\n\n  </section>\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; line-height: 1.4; color: #222; font-weight: 700;\">২. ডেলিভারি চার্জ</h2>\n\n```\n<p style=\"margin: 0 0 12px;\">\n  <strong>২.১.</strong> ডেলিভারি চার্জ আমাদের কুরিয়ার পার্টনারের প্রযোজ্য সাধারণ রেট অনুযায়ী নির্ধারিত হবে।\n</p>\n\n<p style=\"margin: 0 0 10px;\">\n  <strong>২.২.</strong> সাধারণভাবে ডেলিভারি চার্জ আনুমানিকভাবে:\n</p>\n\n<ul style=\"margin: 0 0 12px; padding-left: 25px;\">\n  <li style=\"margin-bottom: 8px;\"><strong>বগুড়া:</strong> ৳৬০–৳৭০</li>\n  <li style=\"margin-bottom: 8px;\"><strong>অন্যান্য জেলা/লোকেশন:</strong> ৳১২০–৳১৩০</li>\n</ul>\n\n<p style=\"margin: 0;\">\n  <strong>২.৩.</strong> কুরিয়ার রেট, ডেলিভারি লোকেশন, পার্সেলের ওজন/আকার অথবা অন্যান্য প্রযোজ্য চার্জের কারণে ডেলিভারি চার্জ পরিবর্তিত হতে পারে। অর্ডার নিশ্চিত করার সময় প্রযোজ্য ডেলিভারি চার্জ জানানো হবে।\n</p>\n```\n\n  </section>\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; line-height: 1.4; color: #222; font-weight: 700;\">৩. অর্ডার নিশ্চিতকরণ ও অগ্রিম পেমেন্ট</h2>\n\n```\n<h3 style=\"margin: 0 0 12px; font-size: 19px; line-height: 1.5; color: #333; font-weight: 700;\">৩.১. অর্ডার ভেরিফিকেশন</h3>\n\n<p style=\"margin: 0 0 10px;\">\n  অর্ডার নিশ্চিত করার জন্য গ্রাহককে সঠিকভাবে প্রদান করতে হবে:\n</p>\n\n<ul style=\"margin: 0 0 15px; padding-left: 25px;\">\n  <li style=\"margin-bottom: 8px;\">পূর্ণ নাম</li>\n  <li style=\"margin-bottom: 8px;\">সম্পূর্ণ ডেলিভারি ঠিকানা</li>\n  <li style=\"margin-bottom: 8px;\">সচল মোবাইল নম্বর</li>\n  <li style=\"margin-bottom: 8px;\">ডেলিভারির জন্য প্রয়োজনীয় অন্যান্য তথ্য</li>\n</ul>\n\n<p style=\"margin: 0 0 25px;\">\n  Fragroot প্রয়োজনে অর্ডার নিশ্চিত করার আগে এসব তথ্য যাচাই করতে পারে।\n</p>\n\n<h3 style=\"margin: 0 0 12px; font-size: 19px; line-height: 1.5; color: #333; font-weight: 700;\">৩.২. অগ্রিম পেমেন্ট</h3>\n\n<p style=\"margin: 0 0 10px;\">\n  অর্ডার ও গ্রাহকের তথ্য যাচাইয়ের ভিত্তিতে Fragroot অগ্রিম হিসেবে নিম্নোক্ত অর্থ চাইতে পারে:\n</p>\n\n<ul style=\"margin: 0 0 15px; padding-left: 25px;\">\n  <li style=\"margin-bottom: 8px;\">প্রযোজ্য ডেলিভারি চার্জ</li>\n  <li style=\"margin-bottom: 8px;\"><strong>৳৪০ প্যাকেজিং চার্জ</strong></li>\n  <li style=\"margin-bottom: 8px;\">প্রযোজ্য পার্সেল রিটার্ন চার্জ</li>\n</ul>\n\n<p style=\"margin: 0 0 12px;\">\n  অর্ডার নিশ্চিত করার আগে প্রযোজ্য অগ্রিমের পরিমাণ জানিয়ে দেওয়া হবে।\n</p>\n\n<p style=\"margin: 0 0 25px;\">\n  তবে গ্রাহকের তথ্য ও পূর্ববর্তী ডেলিভারি ইতিহাস সন্তোষজনক হলে Fragroot ডেলিভারি চার্জ অগ্রিম না নিয়েও অর্ডার নিশ্চিত করতে পারে।\n</p>\n\n<h3 style=\"margin: 0 0 12px; font-size: 19px; line-height: 1.5; color: #333; font-weight: 700;\">৩.৩. ঝুঁকিপূর্ণ অর্ডার যাচাই</h3>\n\n<p style=\"margin: 0 0 12px;\">\n  কুরিয়ার তথ্য, পূর্ববর্তী ডেলিভারি ইতিহাস, একাধিকবার পার্সেল গ্রহণ না করা, অসম্পূর্ণ তথ্য বা অন্যান্য যৌক্তিক কারণে কোনো অর্ডার অতিরিক্ত যাচাইয়ের প্রয়োজন বলে বিবেচিত হলে Fragroot পণ্য পাঠানোর আগে আংশিক বা সম্পূর্ণ অগ্রিম পেমেন্ট চাইতে পারে।\n</p>\n\n<p style=\"margin: 0;\">\n  গ্রাহক নির্ধারিত অগ্রিম পেমেন্টে সম্মত না হলে Fragroot অর্ডারটি বাতিল করার অধিকার রাখে।\n</p>\n```\n\n  </section>\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; line-height: 1.4; color: #222; font-weight: 700;\">৪. অর্ডার বাতিল</h2>\n\n```\n<h3 style=\"margin: 0 0 12px; font-size: 19px; line-height: 1.5; color: #333; font-weight: 700;\">৪.১. ১ ঘণ্টার মধ্যে বাতিল</h3>\n\n<p style=\"margin: 0 0 12px;\">\n  Fragroot কর্তৃক অর্ডার নিশ্চিত করার সময় থেকে <strong>১ ঘণ্টার মধ্যে</strong> গ্রাহক অর্ডার বাতিলের অনুরোধ করতে পারবেন।\n</p>\n\n<p style=\"margin: 0 0 25px;\">\n  অগ্রিম পেমেন্ট করা হয়ে থাকলে, প্রযোজ্য মানি ট্রান্সফার/পেমেন্ট প্রসেসিং খরচ বাদ দিয়ে অবশিষ্ট অর্থ ফেরত দেওয়া হবে।\n</p>\n\n<h3 style=\"margin: 0 0 12px; font-size: 19px; line-height: 1.5; color: #333; font-weight: 700;\">৪.২. ১ ঘণ্টার পর কিন্তু ডিসপ্যাচের আগে বাতিল</h3>\n\n<p style=\"margin: 0 0 12px;\">\n  অর্ডার প্যাকেজিং/প্রসেসিং পর্যায়ে চলে যাওয়ার পর গ্রাহক অর্ডার বাতিল করলে প্রযোজ্য প্যাকেজিং চার্জ অগ্রিম অর্থ থেকে কেটে নেওয়া হবে।\n</p>\n\n<p style=\"margin: 0 0 12px;\">\n  প্যাকেজিং চার্জের ন্যূনতম পরিমাণ <strong>৳৪০</strong> এবং এই চার্জ নিয়ে দর-কষাকষি প্রযোজ্য নয়।\n</p>\n\n<p style=\"margin: 0 0 25px;\">\n  এছাড়াও প্রযোজ্য মানি ট্রান্সফার/পেমেন্ট প্রসেসিং খরচ কেটে নেওয়া হতে পারে।\n</p>\n\n<h3 style=\"margin: 0 0 12px; font-size: 19px; line-height: 1.5; color: #333; font-weight: 700;\">৪.৩. ডিসপ্যাচের পর বাতিল / পার্সেল গ্রহণে অস্বীকৃতি</h3>\n\n<p style=\"margin: 0 0 10px;\">নিম্নোক্ত পরিস্থিতিতে:</p>\n\n<ul style=\"margin: 0 0 15px; padding-left: 25px;\">\n  <li style=\"margin-bottom: 8px;\">পার্সেল কুরিয়ারের কাছে হস্তান্তর করা হয়েছে;</li>\n  <li style=\"margin-bottom: 8px;\">গ্রাহক পার্সেল গ্রহণ করতে অস্বীকৃতি জানিয়েছেন;</li>\n  <li style=\"margin-bottom: 8px;\">ডেলিভারি প্রচেষ্টার পরও গ্রাহক পার্সেল গ্রহণ করেননি;</li>\n  <li style=\"margin-bottom: 8px;\">গ্রাহকের সঙ্গে যোগাযোগ করা সম্ভব হয়নি;</li>\n  <li style=\"margin-bottom: 8px;\">ভুল বা অসম্পূর্ণ গ্রাহক তথ্যের কারণে পার্সেল ডেলিভারি সম্ভব হয়নি; অথবা</li>\n  <li style=\"margin-bottom: 8px;\">গ্রাহক পার্সেল গ্রহণ করে পণ্য না খুলে ফেরত দিয়েছেন।</li>\n</ul>\n\n<p style=\"margin: 0 0 10px;\">\n  সেক্ষেত্রে প্রযোজ্য রিফান্ডের পরিমাণ থেকে নিম্নোক্ত খরচগুলো বাদ দেওয়া হবে:\n</p>\n\n<ul style=\"margin: 0 0 25px; padding-left: 25px;\">\n  <li style=\"margin-bottom: 8px;\">সম্পূর্ণ ডেলিভারি চার্জ</li>\n  <li style=\"margin-bottom: 8px;\">প্রযোজ্য পার্সেল রিটার্ন চার্জ</li>\n  <li style=\"margin-bottom: 8px;\">প্যাকেজিং চার্জ</li>\n  <li style=\"margin-bottom: 8px;\">মানি ট্রান্সফার/পেমেন্ট প্রসেসিং খরচ</li>\n</ul>\n\n<h3 style=\"margin: 0 0 12px; font-size: 19px; line-height: 1.5; color: #333; font-weight: 700;\">৪.৪. Fragroot কর্তৃক অর্ডার বাতিল</h3>\n\n<p style=\"margin: 0;\">\n  Fragroot-এর নিজস্ব কোনো ভুল বা কারণে অর্ডার বাতিল হলে গ্রাহকের প্রাপ্য অগ্রিম অর্থ সম্পূর্ণ ফেরত দেওয়া হবে।\n</p>\n```\n\n  </section>\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; line-height: 1.4; color: #222; font-weight: 700;\">৫. ভুল গ্রাহক তথ্য</h2>\n\n```\n<p style=\"margin: 0 0 12px;\"><strong>৫.১.</strong> গ্রাহক সঠিক নাম, ঠিকানা, মোবাইল নম্বর এবং অন্যান্য ডেলিভারি তথ্য প্রদান করার জন্য দায়ী।</p>\n\n<p style=\"margin: 0 0 12px;\"><strong>৫.২.</strong> ভুল, অসম্পূর্ণ, বিভ্রান্তিকর বা যোগাযোগ-অযোগ্য তথ্যের কারণে অর্ডার ডেলিভারি করা সম্ভব না হলে <strong>ধারা ৪.৩</strong> অনুযায়ী রিফান্ডের নিয়ম প্রযোজ্য হবে।</p>\n\n<p style=\"margin: 0 0 12px;\"><strong>৫.৩.</strong> গ্রাহকের দেওয়া ভুল তথ্যের কারণে অতিরিক্ত কুরিয়ার চার্জ বা একাধিকবার ডেলিভারি প্রচেষ্টার খরচ হলে সেই অতিরিক্ত খরচও রিফান্ডের অর্থ থেকে কেটে নেওয়া হতে পারে।</p>\n\n<p style=\"margin: 0;\"><strong>৫.৪.</strong> ডেলিভারি ব্যর্থতার কারণ Fragroot-এর ভুল হলে <strong>ধারা ৪.৪</strong> প্রযোজ্য হবে।</p>\n```\n\n  </section>\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; line-height: 1.4; color: #222; font-weight: 700;\">৬. বিলম্বিত ডেলিভারি</h2>\n\n```\n<p style=\"margin: 0 0 10px;\">\n  <strong>৬.১.</strong> নিম্নোক্ত কারণে ডেলিভারি সময়সীমা পরিবর্তিত হতে পারে:\n</p>\n\n<ul style=\"margin: 0 0 15px; padding-left: 25px;\">\n  <li style=\"margin-bottom: 8px;\">প্রতিকূল আবহাওয়া</li>\n  <li style=\"margin-bottom: 8px;\">প্রাকৃতিক দুর্যোগ</li>\n  <li style=\"margin-bottom: 8px;\">ধর্মঘট বা পরিবহন সমস্যা</li>\n  <li style=\"margin-bottom: 8px;\">সরকারি ছুটি</li>\n  <li style=\"margin-bottom: 8px;\">কুরিয়ারের কার্যক্রম-সংক্রান্ত সমস্যা</li>\n  <li style=\"margin-bottom: 8px;\">নিরাপত্তাজনিত বিধিনিষেধ</li>\n  <li style=\"margin-bottom: 8px;\">ভুল গ্রাহক তথ্য</li>\n  <li style=\"margin-bottom: 8px;\">গ্রাহকের অনুপস্থিতি</li>\n  <li style=\"margin-bottom: 8px;\">Fragroot-এর নিয়ন্ত্রণের বাইরে থাকা অন্যান্য পরিস্থিতি</li>\n</ul>\n\n<p style=\"margin: 0;\">\n  <strong>৬.২.</strong> এমন পরিস্থিতিতে Fragroot কুরিয়ারের সঙ্গে যোগাযোগ করে সমস্যাটি সমাধানের জন্য যথাসম্ভব সহযোগিতা করবে।\n</p>\n```\n\n  </section>\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; line-height: 1.4; color: #222; font-weight: 700;\">৭. পার্সেল খোলার পর</h2>\n\n```\n<p style=\"margin: 0 0 12px;\">\n  <strong>৭.১.</strong> ডেলিভারি, অর্ডার বাতিল এবং না-খোলা পার্সেল-সংক্রান্ত বিষয়গুলো এই <strong>শিপিং ও ডেলিভারি নীতিমালার</strong> আওতাভুক্ত।\n</p>\n\n<p style=\"margin: 0 0 12px;\">\n  <strong>৭.২.</strong> গ্রাহক পার্সেল/পণ্যের প্যাকেজিং খোলার পর পণ্য-সংক্রান্ত কোনো সমস্যা থাকলে তা <strong>রিটার্ন ও রিফান্ড নীতিমালা</strong> অনুযায়ী বিবেচনা করা হবে।\n</p>\n\n<p style=\"margin: 0;\">\n  <strong>৭.৩.</strong> গ্রাহককে পার্সেল গ্রহণের সময় পার্সেল থেকে শুরু করে পণ্য বের করে সম্পূর্ণভাবে দেখানো পর্যন্ত একটি ধারাবাহিক <strong>আনবক্সিং ভিডিও ধারণ করার জন্য বিশেষভাবে পরামর্শ দেওয়া হচ্ছে</strong>।\n</p>\n```\n\n  </section>\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; line-height: 1.4; color: #222; font-weight: 700;\">রিফান্ডের সংক্ষিপ্ত হিসাব</h2>\n\n```\n<div style=\"overflow-x: auto; width: 100%;\">\n  <table style=\"width: 100%; border-collapse: collapse; font-size: 15px; line-height: 1.7;\">\n    <thead>\n      <tr>\n        <th style=\"padding: 14px 16px; border: 1px solid #ddd; background-color: #f5f5f5; color: #222; text-align: left; font-weight: 700;\">পরিস্থিতি</th>\n        <th style=\"padding: 14px 16px; border: 1px solid #ddd; background-color: #f5f5f5; color: #222; text-align: left; font-weight: 700;\">রিফান্ডের হিসাব</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td style=\"padding: 14px 16px; border: 1px solid #ddd; vertical-align: top;\">১ ঘণ্টার মধ্যে বাতিল</td>\n        <td style=\"padding: 14px 16px; border: 1px solid #ddd; vertical-align: top;\">অগ্রিম − প্রযোজ্য মানি ট্রান্সফার/পেমেন্ট খরচ</td>\n      </tr>\n\n      <tr>\n        <td style=\"padding: 14px 16px; border: 1px solid #ddd; vertical-align: top;\">প্যাকেজিং শুরু হওয়ার পর বাতিল</td>\n        <td style=\"padding: 14px 16px; border: 1px solid #ddd; vertical-align: top;\">অগ্রিম − প্যাকেজিং চার্জ − প্রযোজ্য মানি ট্রান্সফার/পেমেন্ট খরচ</td>\n      </tr>\n\n      <tr>\n        <td style=\"padding: 14px 16px; border: 1px solid #ddd; vertical-align: top;\">ডিসপ্যাচের পর গ্রহণ না করা/ফেরত</td>\n        <td style=\"padding: 14px 16px; border: 1px solid #ddd; vertical-align: top;\">অগ্রিম − ডেলিভারি চার্জ − রিটার্ন চার্জ − প্যাকেজিং চার্জ − প্রযোজ্য মানি ট্রান্সফার/পেমেন্ট খরচ</td>\n      </tr>\n\n      <tr>\n        <td style=\"padding: 14px 16px; border: 1px solid #ddd; vertical-align: top;\">গ্রাহকের ভুল তথ্যের কারণে ডেলিভারি ব্যর্থ</td>\n        <td style=\"padding: 14px 16px; border: 1px solid #ddd; vertical-align: top;\">অগ্রিম − গ্রাহকসৃষ্ট ডেলিভারি ব্যর্থতার ক্ষেত্রে প্রযোজ্য সকল খরচ</td>\n      </tr>\n\n      <tr>\n        <td style=\"padding: 14px 16px; border: 1px solid #ddd; vertical-align: top;\">Fragroot কর্তৃক বাতিল</td>\n        <td style=\"padding: 14px 16px; border: 1px solid #ddd; vertical-align: top;\">প্রাপ্য অগ্রিম অর্থ সম্পূর্ণ ফেরত</td>\n      </tr>\n    </tbody>\n  </table>\n</div>\n```\n\n  </section>\n\n  <div style=\"margin-top: 10px; padding: 18px 20px; background-color: #f8f8f8; border-left: 4px solid #ccc; color: #555;\">\n    <p style=\"margin: 0;\">\n      <strong>বিশেষ দ্রষ্টব্য:</strong> রিফান্ডের প্রকৃত সময় পেমেন্ট পদ্ধতি, ব্যাংক, মোবাইল ফাইন্যান্সিয়াল সার্ভিস বা সংশ্লিষ্ট পেমেন্ট প্রদানকারীর ওপর নির্ভর করতে পারে।\n    </p>\n  </div>\n\n</div>\n"
+  },
+  "returns": {
+   "title": "Return & Refund Policy",
+   "body": "\n<div style=\"max-width: 900px; margin: 0 auto; padding: 40px 20px; color: #444; font-family: Arial, sans-serif; line-height: 1.8;\">\n\n  <div style=\"text-align: center; margin-bottom: 50px;\">\n    <p style=\"margin: 0 0 8px; font-size: 15px; color: #888; letter-spacing: 1px;\">\n      Fragroot\n    </p>\n\n    <h1 style=\"margin: 0 0 12px; font-size: 32px; line-height: 1.3; color: #222; font-weight: 700;\">\n      রিটার্ন ও রিফান্ড নীতিমালা\n    </h1>\n\n    <p style=\"margin: 0; font-size: 14px; color: #888;\">\n      সর্বশেষ হালনাগাদ: অক্টোবর ২০২৬\n    </p>\n  </div>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <p style=\"margin: 0 0 16px;\">\n      Fragroot পণ্য পাঠানোর আগে যথাসম্ভব সতর্কতার সঙ্গে পণ্য পরীক্ষা ও প্যাকেজিং করে। এই রিটার্ন ও রিফান্ড নীতিমালায় কোন পরিস্থিতিতে পণ্য রিটার্ন বা রিফান্ডের জন্য বিবেচিত হতে পারে এবং কী ধরনের প্রমাণ প্রয়োজন হতে পারে তা উল্লেখ করা হয়েছে।\n    </p>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ১. রিটার্ন ও রিফান্ড নীতিমালা কখন প্রযোজ্য\n    </h2>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>১.১.</strong> গ্রাহক পার্সেল/পণ্যের প্যাকেজিং খোলার পর পণ্য-সংক্রান্ত কোনো যোগ্য সমস্যা থাকলে তা এই রিটার্ন ও রিফান্ড নীতিমালার আওতায় বিবেচিত হবে।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>১.২.</strong> শুধুমাত্র মত পরিবর্তন, পণ্য আর প্রয়োজন না হওয়া অথবা পণ্যের সুগন্ধি ব্যক্তিগত পছন্দ অনুযায়ী না হওয়ার কারণে সাধারণত পণ্য রিটার্ন করা যাবে না।\n    </p>\n\n    <p style=\"margin: 0;\">\n      <strong>১.৩.</strong> শুধুমাত্র এই নীতিমালায় উল্লেখিত যোগ্য সমস্যার ক্ষেত্রে রিটার্ন বা রিফান্ড বিবেচনা করা হবে।\n    </p>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ২. আনবক্সিং ভিডিও ও প্রমাণ\n    </h2>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>২.১.</strong> গ্রাহককে পার্সেল গ্রহণের মুহূর্ত থেকে পণ্যগুলো বের করে সম্পূর্ণভাবে দেখানো পর্যন্ত একটি <strong>ধারাবাহিক আনবক্সিং ভিডিও ধারণ করার জন্য বিশেষভাবে পরামর্শ দেওয়া হচ্ছে</strong>।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>২.২.</strong> পার্সেল গ্রহণের পর গ্রাহকের উচিত যত দ্রুত সম্ভব পার্সেল ও পণ্য পরীক্ষা করা।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>২.৩.</strong> সম্ভব হলে ডেলিভারি ম্যানের উপস্থিতিতে কোনো দৃশ্যমান সমস্যা শনাক্ত হলে তা সঙ্গে সঙ্গে জানানো উচিত।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>২.৪.</strong> ডেলিভারি ম্যানের সামনে সমস্যা শনাক্ত করা সম্ভব না হলে আনবক্সিং ভিডিও সংরক্ষণ করে যত দ্রুত সম্ভব Fragroot-এর সঙ্গে যোগাযোগ করতে হবে।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>২.৫.</strong> পণ্য ক্ষতিগ্রস্ত, ভুল, কম বা লিকেজযুক্ত হলে Fragroot যাচাইয়ের জন্য ছবি, ভিডিও, অর্ডারের তথ্য এবং অন্যান্য যুক্তিসঙ্গত প্রমাণ চাইতে পারে।\n    </p>\n\n    <p style=\"margin: 0;\">\n      <strong>২.৬.</strong> কোনো সমস্যা ডেলিভারির সময় থেকেই ছিল—এটি যুক্তিসঙ্গতভাবে যাচাই করার মতো পর্যাপ্ত প্রমাণ না থাকলে Fragroot রিটার্ন বা রিফান্ডের আবেদন প্রত্যাখ্যান করতে পারে।\n    </p>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ৩. অভিযোগ জানানোর সময়সীমা\n    </h2>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৩.১.</strong> পণ্য ক্ষতিগ্রস্ত, ভুল পণ্য, পণ্য অনুপস্থিত বা লিকেজের মতো কোনো সমস্যা থাকলে পার্সেল গ্রহণের <strong>২৪ ঘণ্টার মধ্যে</strong> Fragroot-কে জানাতে হবে।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৩.২.</strong> ২৪ ঘণ্টার পর জানানো অভিযোগ বিশেষ পরিস্থিতিতে Fragroot-এর বিবেচনায় গ্রহণ করা হতে পারে এবং অতিরিক্ত প্রমাণ চাওয়া হতে পারে।\n    </p>\n\n    <p style=\"margin: 0 0 10px;\">\n      <strong>৩.৩.</strong> অভিযোগ করার সময় গ্রাহককে সম্ভব হলে প্রদান করতে হবে:\n    </p>\n\n    <ul style=\"margin: 0; padding-left: 25px;\">\n      <li style=\"margin-bottom: 8px;\">অর্ডার আইডি</li>\n      <li style=\"margin-bottom: 8px;\">গ্রাহকের নাম ও মোবাইল নম্বর</li>\n      <li style=\"margin-bottom: 8px;\">সমস্যার বিস্তারিত বিবরণ</li>\n      <li style=\"margin-bottom: 8px;\">পরিষ্কার ছবি</li>\n      <li style=\"margin-bottom: 0;\">আনবক্সিং ভিডিও, যদি থাকে</li>\n    </ul>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ৪. পণ্য ক্ষতিগ্রস্ত হলে\n    </h2>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৪.১.</strong> ডেলিভারির আগে বা ডেলিভারির সময় পণ্য ক্ষতিগ্রস্ত হয়েছে এবং বিষয়টি যাচাই করা গেলে Fragroot প্রযোজ্য ক্ষেত্রে ক্ষতিগ্রস্ত পণ্যের রিফান্ড অথবা উপযুক্ত রিপ্লেসমেন্ট দিতে পারে।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৪.২.</strong> যাচাইকৃত ক্ষতিগ্রস্ত পণ্যের ক্ষেত্রে সংশ্লিষ্ট পণ্যের <strong>সম্পূর্ণ মূল্য</strong> রিফান্ড করা হবে।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৪.৩.</strong> পার্সেলের সব পণ্য যাচাইকৃতভাবে ক্ষতিগ্রস্ত হলে প্রযোজ্য ডেলিভারি চার্জও রিফান্ড করা হবে।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৪.৪.</strong> পণ্যের কার্যকারিতা বা গুণমানের ওপর কোনো প্রভাব না ফেলা সামান্য বাহ্যিক প্যাকেজিংয়ের ত্রুটি সাধারণত রিফান্ডের কারণ হিসেবে বিবেচিত হবে না।\n    </p>\n\n    <p style=\"margin: 0;\">\n      <strong>৪.৫.</strong> পার্সেল গ্রহণের পর গ্রাহকের কারণে পণ্য ক্ষতিগ্রস্ত হলে রিফান্ড প্রযোজ্য হবে না।\n    </p>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ৫. ভুল পণ্য পাঠানো হলে\n    </h2>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৫.১.</strong> Fragroot গ্রাহকের নিশ্চিত করা অর্ডারের পরিবর্তে অন্য কোনো পণ্য পাঠালে গ্রাহক ভুল পণ্যটি ফেরত দিয়ে রিফান্ড অথবা প্রযোজ্য ক্ষেত্রে সঠিক পণ্য পাওয়ার জন্য আবেদন করতে পারবেন।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৫.২.</strong> যাচাইকৃত ভুল পণ্য ফেরত পাঠানোর যুক্তিসঙ্গত ডেলিভারি খরচ Fragroot বহন করবে।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৫.৩.</strong> ফেরত পাঠানো পণ্যটি গ্রাহকের কাছে যে অবস্থায় পৌঁছেছিল, যথাসম্ভব একই অবস্থায় Fragroot-এর কাছে পৌঁছাতে হবে।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৫.৪.</strong> গ্রাহক ভুল পণ্যটি নিজের কাছে রেখে দিলে সাধারণত সেই পণ্যের জন্য রিফান্ড প্রদান করা হবে না।\n    </p>\n\n    <p style=\"margin: 0;\">\n      <strong>৫.৫.</strong> অর্ডার অনুযায়ী সঠিক পণ্য পাঠানো হলেও গ্রাহক নিজে ভুল সুগন্ধি, সাইজ বা পরিমাণ নির্বাচন করলে সেটিকে <strong>“ভুল পণ্য”</strong> হিসেবে গণ্য করা হবে না।\n    </p>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ৬. লিকেজ\n    </h2>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৬.১.</strong> পরিবহনের সময় পারফিউম সামান্য লিকেজ হতে পারে। লিকেজের পরিমাণ রিফান্ডের জন্য যোগ্য কিনা তা নির্ধারণের জন্য গ্রাহককে পণ্যের লিকেজ ও অবস্থার পরিষ্কার ছবি এবং/অথবা ভিডিও প্রদান করতে হবে।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৬.২.</strong> লিকেজের পরিমাণ ও পরিস্থিতি যাচাই করে Fragroot রিফান্ড বা উপযুক্ত সমাধানের বিষয়ে সিদ্ধান্ত নেবে।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৬.৩.</strong> লিকেজের পরিমাণ নির্ধারণের ক্ষেত্রে ছবি, ভিডিও, অবশিষ্ট পণ্যের পরিমাণ, প্যাকেজিংয়ের অবস্থা এবং অন্যান্য প্রাসঙ্গিক তথ্য বিবেচনা করা হবে।\n    </p>\n\n    <p style=\"margin: 0;\">\n      <strong>৬.৪.</strong> প্রয়োজনে Fragroot অতিরিক্ত তথ্য বা প্রমাণ চাইতে পারে।\n    </p>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ৭. পণ্য অনুপস্থিত থাকলে\n    </h2>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৭.১.</strong> নিশ্চিত করা অর্ডারের কোনো পণ্য পার্সেল থেকে অনুপস্থিত থাকলে যাচাইয়ের পর সংশ্লিষ্ট অনুপস্থিত পণ্যের <strong>সম্পূর্ণ মূল্য রিফান্ড</strong> করা হবে।\n    </p>\n\n    <p style=\"margin: 0;\">\n      <strong>৭.২.</strong> যাচাই সহজ করার জন্য গ্রাহককে পার্সেল ও পার্সেলের ভেতরের পণ্যের ছবি/ভিডিও প্রদান করতে হবে।\n    </p>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ৮. যেসব ক্ষেত্রে সাধারণত রিটার্ন বা রিফান্ড প্রযোজ্য নয়\n    </h2>\n\n    <p style=\"margin: 0 0 12px;\">\n      নিম্নোক্ত ক্ষেত্রে সাধারণত রিটার্ন বা রিফান্ড প্রযোজ্য হবে না:\n    </p>\n\n    <ul style=\"margin: 0; padding-left: 25px;\">\n      <li style=\"margin-bottom: 8px;\">গ্রাহকের সুগন্ধি পছন্দ না হওয়া</li>\n      <li style=\"margin-bottom: 8px;\">ব্যক্তিগত পছন্দ অনুযায়ী fragrance পছন্দ না হওয়া</li>\n      <li style=\"margin-bottom: 8px;\">গ্রাহক ভিন্ন ধরনের scent profile আশা করা</li>\n      <li style=\"margin-bottom: 8px;\">ব্যক্তিভেদে skin chemistry-এর কারণে সুগন্ধির পার্থক্য</li>\n      <li style=\"margin-bottom: 8px;\">ব্যক্তিভেদে longevity বা projection-এর পার্থক্য</li>\n      <li style=\"margin-bottom: 8px;\">গ্রাহক ভুল fragrance, size বা quantity অর্ডার করা</li>\n      <li style=\"margin-bottom: 8px;\">পণ্য খোলার বা ব্যবহারের পর মত পরিবর্তন</li>\n      <li style=\"margin-bottom: 8px;\">গ্রাহকের কারণে পণ্য ক্ষতিগ্রস্ত হওয়া</li>\n      <li style=\"margin-bottom: 8px;\">পণ্য খোলা, ব্যবহার, dilute, contaminate, পরিবর্তন বা অন্যভাবে পরিবর্তিত করা</li>\n      <li style=\"margin-bottom: 8px;\">পণ্যের ওপর প্রভাব না ফেলা সামান্য বাহ্যিক প্যাকেজিংয়ের ত্রুটি</li>\n      <li style=\"margin-bottom: 8px;\">যেখানে যুক্তিসঙ্গতভাবে প্রমাণ প্রয়োজন হলেও পর্যাপ্ত প্রমাণ না থাকা</li>\n      <li style=\"margin-bottom: 0;\">ডেলিভারির পর ভুলভাবে সংরক্ষণ বা ব্যবহারের কারণে সৃষ্ট সমস্যা</li>\n    </ul>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ৯. পারফিউম-সংক্রান্ত বিশেষ ঘোষণা\n    </h2>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৯.১.</strong> সুগন্ধি একটি অত্যন্ত ব্যক্তিনির্ভর বিষয়। একই পারফিউমের গন্ধ, বিকাশ, projection এবং longevity ব্যক্তি থেকে ব্যক্তিতে ভিন্ন হতে পারে।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৯.২.</strong> ত্বকের ধরন ও chemistry, শরীরের তাপমাত্রা, আবহাওয়া, ব্যবহারের পদ্ধতি, পরিবেশ এবং ব্যক্তিগত ঘ্রাণ অনুভূতির কারণে এই পার্থক্য হতে পারে।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৯.৩.</strong> তাই ব্যক্তিগত পছন্দ, perceived similarity, longevity, projection বা scent development-এর পার্থক্য নিজে থেকে পণ্যের ত্রুটি হিসেবে গণ্য হবে না এবং সাধারণত রিটার্ন বা রিফান্ডের কারণ হবে না।\n    </p>\n\n    <p style=\"margin: 0;\">\n      <strong>৯.৪.</strong> কোনো fragrance কেনার আগে সেটির scent profile সম্পর্কে নিশ্চিত না হলে গ্রাহককে অর্ডার করার পূর্বে আমাদের কাছ থেকে তথ্য নেওয়ার জন্য উৎসাহিত করা হচ্ছে।\n    </p>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ১০. পণ্যের ধরন ও বিবরণ\n    </h2>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>১০.১.</strong> অর্ডার করার আগে গ্রাহকের উচিত পণ্যের বিবরণ ভালোভাবে পড়ে নেওয়া।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>১০.২.</strong> প্রযোজ্য ক্ষেত্রে Fragroot-এর পণ্যটি <strong>Original Perfume, Perfume Oil, Attar, Decant, Inspired Fragrance</strong> অথবা অন্য কোনো ধরনের পণ্য কিনা তা স্পষ্টভাবে উল্লেখ করবে।\n    </p>\n\n    <p style=\"margin: 0;\">\n      <strong>১০.৩.</strong> পণ্যের বিবরণে পণ্যের ধরন স্পষ্টভাবে উল্লেখ থাকা সত্ত্বেও গ্রাহকের ভুল বোঝাবুঝি সাধারণত রিটার্ন বা রিফান্ডের কারণ হিসেবে বিবেচিত হবে না।\n    </p>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ১১. রিটার্ন অনুমোদন ও পণ্য যাচাই\n    </h2>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>১১.১.</strong> Fragroot-এর সঙ্গে যোগাযোগ না করে এবং রিটার্নের নির্দেশনা না নিয়ে কোনো পণ্য ফেরত পাঠানো উচিত নয়।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>১১.২.</strong> রিটার্ন করা পণ্য পাওয়ার পর Fragroot প্রয়োজন অনুযায়ী পণ্য পরীক্ষা করে রিফান্ড বা রিপ্লেসমেন্ট অনুমোদন করবে।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>১১.৩.</strong> ফেরত পাঠানো পণ্য গ্রাহকের কারণে ক্ষতিগ্রস্ত, খোলা, ব্যবহৃত, পরিবর্তিত বা দূষিত হয়েছে বলে প্রমাণিত হলে রিটার্ন/রিফান্ডের আবেদন প্রত্যাখ্যান করা হতে পারে।\n    </p>\n\n    <p style=\"margin: 0;\">\n      <strong>১১.৪.</strong> অনুমোদিত রিটার্নের ক্ষেত্রে এই নীতিমালার সংশ্লিষ্ট ধারা অনুযায়ী রিফান্ডের পরিমাণ নির্ধারণ করা হবে।\n    </p>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ১২. রিফান্ড প্রক্রিয়া\n    </h2>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>১২.১.</strong> রিটার্ন/রিফান্ডের আবেদন যাচাই করে অনুমোদন করা হলে Fragroot প্রযোজ্য রিফান্ড প্রক্রিয়া শুরু করবে।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>১২.২.</strong> গ্রাহকের কাছে রিফান্ড পৌঁছাতে কত সময় লাগবে তা ব্যবহৃত পেমেন্ট পদ্ধতি, ব্যাংক, মোবাইল ফাইন্যান্সিয়াল সার্ভিস বা সংশ্লিষ্ট পেমেন্ট প্রদানকারীর ওপর নির্ভর করতে পারে।\n    </p>\n\n    <p style=\"margin: 0;\">\n      <strong>১২.৩.</strong> এই নীতিমালায় যেখানে প্রযোজ্য বলা হয়েছে, সেখানে মানি ট্রান্সফার বা পেমেন্ট প্রসেসিং খরচ রিফান্ড থেকে বাদ দেওয়া হতে পারে।\n    </p>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ১৩. অভিযোগ ও যোগাযোগ\n    </h2>\n\n    <p style=\"margin: 0 0 16px;\">\n      ডেলিভারি, ক্ষতিগ্রস্ত পণ্য, লিকেজ, ভুল পণ্য অথবা কোনো পণ্য অনুপস্থিত থাকার মতো সমস্যা হলে গ্রাহককে যত দ্রুত সম্ভব Fragroot-এর সঙ্গে যোগাযোগ করতে হবে।\n    </p>\n\n    <p style=\"margin: 0 0 16px;\">\n      অভিযোগ যাচাইয়ের সময় অর্ডার রেকর্ড, পণ্যের অবস্থা, ছবি/ভিডিও, কুরিয়ার সংক্রান্ত তথ্য এবং অন্যান্য প্রাসঙ্গিক প্রমাণ বিবেচনা করা হবে।\n    </p>\n\n    <p style=\"margin: 0;\">\n      Fragroot প্রতিটি যোগ্য অভিযোগ যথাসম্ভব ন্যায্যভাবে যাচাই করে সমাধানের চেষ্টা করবে।\n    </p>\n  </section>\n\n\n  <section style=\"margin-bottom: 20px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ১৪. নীতিমালা পরিবর্তন\n    </h2>\n\n    <p style=\"margin: 0;\">\n      প্রয়োজন অনুযায়ী Fragroot এই রিটার্ন ও রিফান্ড নীতিমালা পরিবর্তন বা হালনাগাদ করার অধিকার সংরক্ষণ করে।\n    </p>\n\n    <p style=\"margin: 16px 0 0;\">\n      সাধারণভাবে, সংশ্লিষ্ট অর্ডারের সময় ওয়েবসাইটে প্রকাশিত নীতিমালাই সেই অর্ডারের ক্ষেত্রে প্রযোজ্য হবে, যদি না প্রযোজ্য আইন অনুযায়ী অন্য কোনো ব্যবস্থা প্রয়োজন হয়।\n    </p>\n  </section>\n\n</div>\n```\n",
+   "bodyAttar": "\n<div style=\"max-width: 900px; margin: 0 auto; padding: 40px 20px; color: #444; font-family: Arial, sans-serif; line-height: 1.8;\">\n\n  <div style=\"text-align: center; margin-bottom: 50px;\">\n    <p style=\"margin: 0 0 8px; font-size: 15px; color: #888; letter-spacing: 1px;\">\n      Fragroot\n    </p>\n\n    <h1 style=\"margin: 0 0 12px; font-size: 32px; line-height: 1.3; color: #222; font-weight: 700;\">\n      রিটার্ন ও রিফান্ড নীতিমালা\n    </h1>\n\n    <p style=\"margin: 0; font-size: 14px; color: #888;\">\n      সর্বশেষ হালনাগাদ: অক্টোবর ২০২৬\n    </p>\n  </div>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <p style=\"margin: 0;\">\n      Fragroot পণ্য পাঠানোর আগে যথাসম্ভব সতর্কতার সঙ্গে পণ্য পরীক্ষা ও প্যাকেজিং করে। এই রিটার্ন ও রিফান্ড নীতিমালায় কোন পরিস্থিতিতে পণ্য রিটার্ন বা রিফান্ডের জন্য বিবেচিত হতে পারে এবং কী ধরনের প্রমাণ প্রয়োজন হতে পারে তা উল্লেখ করা হয়েছে।\n    </p>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ১. রিটার্ন ও রিফান্ড নীতিমালা কখন প্রযোজ্য\n    </h2>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>১.১.</strong> গ্রাহক পার্সেল/পণ্যের প্যাকেজিং খোলার পর পণ্য-সংক্রান্ত কোনো যোগ্য সমস্যা থাকলে তা এই রিটার্ন ও রিফান্ড নীতিমালার আওতায় বিবেচিত হবে।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>১.২.</strong> শুধুমাত্র মত পরিবর্তন, পণ্য আর প্রয়োজন না হওয়া অথবা পণ্যের সুগন্ধি ব্যক্তিগত পছন্দ অনুযায়ী না হওয়ার কারণে সাধারণত পণ্য রিটার্ন করা যাবে না।\n    </p>\n\n    <p style=\"margin: 0;\">\n      <strong>১.৩.</strong> শুধুমাত্র এই নীতিমালায় উল্লেখিত যোগ্য সমস্যার ক্ষেত্রে রিটার্ন বা রিফান্ড বিবেচনা করা হবে।\n    </p>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ২. আনবক্সিং ভিডিও ও প্রমাণ\n    </h2>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>২.১.</strong> গ্রাহককে পার্সেল গ্রহণের মুহূর্ত থেকে পণ্যগুলো বের করে সম্পূর্ণভাবে দেখানো পর্যন্ত একটি <strong>ধারাবাহিক আনবক্সিং ভিডিও ধারণ করার জন্য বিশেষভাবে পরামর্শ দেওয়া হচ্ছে</strong>।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>২.২.</strong> পার্সেল গ্রহণের পর গ্রাহকের উচিত যত দ্রুত সম্ভব পার্সেল ও পণ্য পরীক্ষা করা।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>২.৩.</strong> সম্ভব হলে ডেলিভারি ম্যানের উপস্থিতিতে কোনো দৃশ্যমান সমস্যা শনাক্ত হলে তা সঙ্গে সঙ্গে জানানো উচিত।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>২.৪.</strong> ডেলিভারি ম্যানের সামনে সমস্যা শনাক্ত করা সম্ভব না হলে আনবক্সিং ভিডিও সংরক্ষণ করে যত দ্রুত সম্ভব Fragroot-এর সঙ্গে যোগাযোগ করতে হবে।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>২.৫.</strong> পণ্য ক্ষতিগ্রস্ত, ভুল, কম বা লিকেজযুক্ত হলে Fragroot যাচাইয়ের জন্য ছবি, ভিডিও, অর্ডারের তথ্য এবং অন্যান্য যুক্তিসঙ্গত প্রমাণ চাইতে পারে।\n    </p>\n\n    <p style=\"margin: 0;\">\n      <strong>২.৬.</strong> কোনো সমস্যা ডেলিভারির সময় থেকেই ছিল—এটি যুক্তিসঙ্গতভাবে যাচাই করার মতো পর্যাপ্ত প্রমাণ না থাকলে Fragroot রিটার্ন বা রিফান্ডের আবেদন প্রত্যাখ্যান করতে পারে।\n    </p>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ৩. অভিযোগ জানানোর সময়সীমা\n    </h2>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৩.১.</strong> পণ্য ক্ষতিগ্রস্ত, ভুল পণ্য, পণ্য অনুপস্থিত বা লিকেজের মতো কোনো সমস্যা থাকলে পার্সেল গ্রহণের <strong>২৪ ঘণ্টার মধ্যে</strong> Fragroot-কে জানাতে হবে।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৩.২.</strong> ২৪ ঘণ্টার পর জানানো অভিযোগ বিশেষ পরিস্থিতিতে Fragroot-এর বিবেচনায় গ্রহণ করা হতে পারে এবং অতিরিক্ত প্রমাণ চাওয়া হতে পারে।\n    </p>\n\n    <p style=\"margin: 0 0 10px;\">\n      <strong>৩.৩.</strong> অভিযোগ করার সময় গ্রাহককে সম্ভব হলে প্রদান করতে হবে:\n    </p>\n\n    <ul style=\"margin: 0; padding-left: 25px;\">\n      <li style=\"margin-bottom: 8px;\">অর্ডার আইডি</li>\n      <li style=\"margin-bottom: 8px;\">গ্রাহকের নাম ও মোবাইল নম্বর</li>\n      <li style=\"margin-bottom: 8px;\">সমস্যার বিস্তারিত বিবরণ</li>\n      <li style=\"margin-bottom: 8px;\">পরিষ্কার ছবি</li>\n      <li style=\"margin-bottom: 0;\">আনবক্সিং ভিডিও, যদি থাকে</li>\n    </ul>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ৪. পণ্য ক্ষতিগ্রস্ত হলে\n    </h2>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৪.১.</strong> ডেলিভারির আগে বা ডেলিভারির সময় পণ্য ক্ষতিগ্রস্ত হয়েছে এবং বিষয়টি যাচাই করা গেলে Fragroot প্রযোজ্য ক্ষেত্রে ক্ষতিগ্রস্ত পণ্যের রিফান্ড অথবা উপযুক্ত রিপ্লেসমেন্ট দিতে পারে।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৪.২.</strong> যাচাইকৃত ক্ষতিগ্রস্ত পণ্যের ক্ষেত্রে সংশ্লিষ্ট পণ্যের <strong>সম্পূর্ণ মূল্য</strong> রিফান্ড করা হবে।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৪.৩.</strong> পার্সেলের সব পণ্য যাচাইকৃতভাবে ক্ষতিগ্রস্ত হলে প্রযোজ্য ডেলিভারি চার্জও রিফান্ড করা হবে।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৪.৪.</strong> পণ্যের কার্যকারিতা বা গুণমানের ওপর কোনো প্রভাব না ফেলা সামান্য বাহ্যিক প্যাকেজিংয়ের ত্রুটি সাধারণত রিফান্ডের কারণ হিসেবে বিবেচিত হবে না।\n    </p>\n\n    <p style=\"margin: 0;\">\n      <strong>৪.৫.</strong> পার্সেল গ্রহণের পর গ্রাহকের কারণে পণ্য ক্ষতিগ্রস্ত হলে রিফান্ড প্রযোজ্য হবে না।\n    </p>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ৫. ভুল পণ্য পাঠানো হলে\n    </h2>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৫.১.</strong> Fragroot গ্রাহকের নিশ্চিত করা অর্ডারের পরিবর্তে অন্য কোনো পণ্য পাঠালে গ্রাহক ভুল পণ্যটি ফেরত দিয়ে রিফান্ড অথবা প্রযোজ্য ক্ষেত্রে সঠিক পণ্য পাওয়ার জন্য আবেদন করতে পারবেন।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৫.২.</strong> যাচাইকৃত ভুল পণ্য ফেরত পাঠানোর যুক্তিসঙ্গত ডেলিভারি খরচ Fragroot বহন করবে।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৫.৩.</strong> ফেরত পাঠানো পণ্যটি গ্রাহকের কাছে যে অবস্থায় পৌঁছেছিল, যথাসম্ভব একই অবস্থায় Fragroot-এর কাছে পৌঁছাতে হবে।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৫.৪.</strong> গ্রাহক ভুল পণ্যটি নিজের কাছে রেখে দিলে সাধারণত সেই পণ্যের জন্য রিফান্ড প্রদান করা হবে না।\n    </p>\n\n    <p style=\"margin: 0;\">\n      <strong>৫.৫.</strong> অর্ডার অনুযায়ী সঠিক পণ্য পাঠানো হলেও গ্রাহক নিজে ভুল সুগন্ধি, সাইজ বা পরিমাণ নির্বাচন করলে সেটিকে <strong>\"ভুল পণ্য\"</strong> হিসেবে গণ্য করা হবে না।\n    </p>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ৬. লিকেজ\n    </h2>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৬.১.</strong> পরিবহনের সময় পারফিউম অয়েল বা আতরে সামান্য লিকেজ হতে পারে। ঠিক কতটুকু পরিমাণ লিকেজ হলে তা রিফান্ডের জন্য যোগ্য হবে সেটা নির্ধারণ করার জন্য গ্রাহককে পণ্যের লিকেজ ও অবস্থার পরিষ্কার ছবি এবং/অথবা ভিডিও প্রদান করতে হবে।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৬.২.</strong> লিকেজের পরিমাণ নির্ধারণের ক্ষেত্রে ছবি, ভিডিও, অবশিষ্ট পণ্যের পরিমাণ, প্যাকেজিংয়ের অবস্থা এবং অন্যান্য প্রাসঙ্গিক তথ্য বিবেচনা করা হবে।\n    </p>\n\n    <p style=\"margin: 0;\">\n      <strong>৬.৩.</strong> প্রয়োজনে Fragroot অতিরিক্ত তথ্য বা প্রমাণ চাইতে পারে।\n    </p>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ৭. পণ্য অনুপস্থিত থাকলে\n    </h2>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৭.১.</strong> নিশ্চিত করা অর্ডারের কোনো পণ্য পার্সেল থেকে অনুপস্থিত থাকলে যাচাইয়ের পর সংশ্লিষ্ট অনুপস্থিত পণ্যের <strong>সম্পূর্ণ মূল্য রিফান্ড</strong> করা হবে।\n    </p>\n\n    <p style=\"margin: 0;\">\n      <strong>৭.২.</strong> যাচাই সহজ করার জন্য গ্রাহককে পার্সেল ও পার্সেলের ভেতরের পণ্যের ছবি/ভিডিও প্রদান করতে হবে।\n    </p>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ৮. যেসব ক্ষেত্রে সাধারণত রিটার্ন বা রিফান্ড প্রযোজ্য নয়\n    </h2>\n\n    <p style=\"margin: 0 0 12px;\">\n      নিম্নোক্ত ক্ষেত্রে সাধারণত রিটার্ন বা রিফান্ড প্রযোজ্য হবে না:\n    </p>\n\n    <ul style=\"margin: 0; padding-left: 25px;\">\n      <li style=\"margin-bottom: 8px;\">গ্রাহকের সুগন্ধি পছন্দ না হওয়া</li>\n      <li style=\"margin-bottom: 8px;\">ব্যক্তিগত পছন্দ অনুযায়ী fragrance পছন্দ না হওয়া</li>\n      <li style=\"margin-bottom: 8px;\">গ্রাহক ভিন্ন ধরনের scent profile আশা করা</li>\n      <li style=\"margin-bottom: 8px;\">ব্যক্তিভেদে skin chemistry-এর কারণে সুগন্ধির পার্থক্য</li>\n      <li style=\"margin-bottom: 8px;\">ব্যক্তিভেদে longevity বা projection-এর পার্থক্য</li>\n      <li style=\"margin-bottom: 8px;\">গ্রাহক ভুল fragrance, size বা quantity অর্ডার করা</li>\n      <li style=\"margin-bottom: 8px;\">পণ্য খোলার বা ব্যবহারের পর মত পরিবর্তন</li>\n      <li style=\"margin-bottom: 8px;\">গ্রাহকের কারণে পণ্য ক্ষতিগ্রস্ত হওয়া</li>\n      <li style=\"margin-bottom: 8px;\">পণ্য খোলা, ব্যবহার, dilute, contaminate, পরিবর্তন বা অন্যভাবে পরিবর্তিত করা</li>\n      <li style=\"margin-bottom: 8px;\">পণ্যের ওপর প্রভাব না ফেলা সামান্য বাহ্যিক প্যাকেজিংয়ের ত্রুটি</li>\n      <li style=\"margin-bottom: 8px;\">যেখানে যুক্তিসঙ্গতভাবে প্রমাণ প্রয়োজন হলেও পর্যাপ্ত প্রমাণ না থাকা</li>\n      <li style=\"margin-bottom: 0;\">ডেলিভারির পর ভুলভাবে সংরক্ষণ বা ব্যবহারের কারণে সৃষ্ট সমস্যা</li>\n    </ul>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ৯. পারফিউম-সংক্রান্ত বিশেষ ঘোষণা\n    </h2>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৯.১.</strong> সুগন্ধি একটি অত্যন্ত ব্যক্তিনির্ভর বিষয়। একই পারফিউমের গন্ধ, বিকাশ, projection এবং longevity ব্যক্তি থেকে ব্যক্তিতে ভিন্ন হতে পারে।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৯.২.</strong> ত্বকের ধরন ও chemistry, শরীরের তাপমাত্রা, আবহাওয়া, ব্যবহারের পদ্ধতি, পরিবেশ এবং ব্যক্তিগত ঘ্রাণ অনুভূতির কারণে এই পার্থক্য হতে পারে।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>৯.৩.</strong> তাই ব্যক্তিগত পছন্দ, perceived similarity, longevity, projection বা scent development-এর পার্থক্য নিজে থেকে পণ্যের ত্রুটি হিসেবে গণ্য হবে না এবং সাধারণত রিটার্ন বা রিফান্ডের কারণ হবে না।\n    </p>\n\n    <p style=\"margin: 0;\">\n      <strong>৯.৪.</strong> কোনো fragrance কেনার আগে সেটির scent profile সম্পর্কে নিশ্চিত না হলে গ্রাহককে অর্ডার করার পূর্বে আমাদের কাছ থেকে তথ্য নেওয়ার জন্য উৎসাহিত করা হচ্ছে।\n    </p>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ১০. পণ্যের ধরন ও বিবরণ\n    </h2>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>১০.১.</strong> অর্ডার করার আগে গ্রাহকের উচিত পণ্যের বিবরণ ভালোভাবে পড়ে নেওয়া।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>১০.২.</strong> প্রযোজ্য ক্ষেত্রে Fragroot-এর পণ্যটি <strong>Original Perfume, Perfume Oil, Attar, Decant, Inspired Fragrance</strong> অথবা অন্য কোনো ধরনের পণ্য কিনা তা স্পষ্টভাবে উল্লেখ করবে।\n    </p>\n\n    <p style=\"margin: 0;\">\n      <strong>১০.৩.</strong> পণ্যের বিবরণে পণ্যের ধরন স্পষ্টভাবে উল্লেখ থাকা সত্ত্বেও গ্রাহকের ভুল বোঝাবুঝি সাধারণত রিটার্ন বা রিফান্ডের কারণ হিসেবে বিবেচিত হবে না।\n    </p>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ১১. রিটার্ন অনুমোদন ও পণ্য যাচাই\n    </h2>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>১১.১.</strong> Fragroot-এর সঙ্গে যোগাযোগ না করে এবং রিটার্নের নির্দেশনা না নিয়ে কোনো পণ্য ফেরত পাঠানো উচিত নয়।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>১১.২.</strong> রিটার্ন করা পণ্য পাওয়ার পর Fragroot প্রয়োজন অনুযায়ী পণ্য পরীক্ষা করে রিফান্ড বা রিপ্লেসমেন্ট অনুমোদন করবে।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>১১.৩.</strong> ফেরত পাঠানো পণ্য গ্রাহকের কারণে ক্ষতিগ্রস্ত, খোলা, ব্যবহৃত, পরিবর্তিত বা দূষিত হয়েছে বলে প্রমাণিত হলে রিটার্ন/রিফান্ডের আবেদন প্রত্যাখ্যান করা হতে পারে।\n    </p>\n\n    <p style=\"margin: 0;\">\n      <strong>১১.৪.</strong> অনুমোদিত রিটার্নের ক্ষেত্রে এই নীতিমালার সংশ্লিষ্ট ধারা অনুযায়ী রিফান্ডের পরিমাণ নির্ধারণ করা হবে।\n    </p>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ১২. রিফান্ড প্রক্রিয়া\n    </h2>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>১২.১.</strong> রিটার্ন/রিফান্ডের আবেদন যাচাই করে অনুমোদন করা হলে Fragroot প্রযোজ্য রিফান্ড প্রক্রিয়া শুরু করবে।\n    </p>\n\n    <p style=\"margin: 0 0 12px;\">\n      <strong>১২.২.</strong> গ্রাহকের কাছে রিফান্ড পৌঁছাতে কত সময় লাগবে তা ব্যবহৃত পেমেন্ট পদ্ধতি, ব্যাংক, মোবাইল ফাইন্যান্সিয়াল সার্ভিস বা সংশ্লিষ্ট পেমেন্ট প্রদানকারীর ওপর নির্ভর করতে পারে।\n    </p>\n\n    <p style=\"margin: 0;\">\n      <strong>১২.৩.</strong> এই নীতিমালায় যেখানে প্রযোজ্য বলা হয়েছে, সেখানে মানি ট্রান্সফার বা পেমেন্ট প্রসেসিং খরচ রিফান্ড থেকে বাদ দেওয়া হতে পারে।\n    </p>\n  </section>\n\n\n  <section style=\"margin-bottom: 40px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ১৩. অভিযোগ ও যোগাযোগ\n    </h2>\n\n    <p style=\"margin: 0 0 16px;\">\n      ডেলিভারি, ক্ষতিগ্রস্ত পণ্য, লিকেজ, ভুল পণ্য অথবা কোনো পণ্য অনুপস্থিত থাকার মতো সমস্যা হলে গ্রাহককে যত দ্রুত সম্ভব Fragroot-এর সঙ্গে যোগাযোগ করতে হবে।\n    </p>\n\n    <p style=\"margin: 0 0 16px;\">\n      অভিযোগ যাচাইয়ের সময় অর্ডার রেকর্ড, পণ্যের অবস্থা, ছবি/ভিডিও, কুরিয়ার সংক্রান্ত তথ্য এবং অন্যান্য প্রাসঙ্গিক প্রমাণ বিবেচনা করা হবে।\n    </p>\n\n    <p style=\"margin: 0;\">\n      Fragroot প্রতিটি যোগ্য অভিযোগ যথাসম্ভব ন্যায্যভাবে যাচাই করে সমাধানের চেষ্টা করবে।\n    </p>\n  </section>\n\n\n  <section style=\"margin-bottom: 20px;\">\n    <h2 style=\"margin: 0 0 18px; font-size: 23px; color: #222;\">\n      ১৪. নীতিমালা পরিবর্তন\n    </h2>\n\n    <p style=\"margin: 0 0 16px;\">\n      প্রয়োজন অনুযায়ী Fragroot এই রিটার্ন ও রিফান্ড নীতিমালা পরিবর্তন বা হালনাগাদ করার অধিকার সংরক্ষণ করে।\n    </p>\n\n    <p style=\"margin: 0;\">\n      সাধারণভাবে, সংশ্লিষ্ট অর্ডারের সময় ওয়েবসাইটে প্রকাশিত নীতিমালাই সেই অর্ডারের ক্ষেত্রে প্রযোজ্য হবে, যদি না প্রযোজ্য আইন অনুযায়ী অন্য কোনো ব্যবস্থা প্রয়োজন হয়।\n    </p>\n  </section>\n\n</div>\n```\n"
+  },
+  "privacy": {
+   "title": "Privacy Policy",
+   "body": "<div style=\"max-width: 900px; margin: 0 auto; padding: 40px 20px; color: #444; font-family: Arial, sans-serif; line-height: 1.8;\">\n\n    <div style=\"text-align: center; margin-bottom: 45px; padding-bottom: 30px; border-bottom: 1px solid #e5e5e5;\">\n        <p style=\"margin: 0 0 8px; color: #9a7b4f; font-size: 13px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;\">\n            Fragroot\n        </p>\n\n        <h1 style=\"margin: 0 0 12px; color: #222; font-family: Georgia, serif; font-size: 40px; font-weight: 500;\">\n            Privacy Policy\n        </h1>\n\n        <p style=\"margin: 0; color: #777; font-size: 14px;\">\n            <strong>Effective Date:</strong> October 4, 2026\n        </p>\n    </div>\n\n\n    <!-- Introduction -->\n    <section style=\"margin-bottom: 40px;\">\n        <h2 style=\"margin: 0 0 15px; color: #222; font-family: Georgia, serif; font-size: 27px; font-weight: 500;\">\n            1. Introduction\n        </h2>\n\n        <p style=\"margin: 0 0 15px;\">\n            Welcome to Fragroot. We value your privacy and are committed\n            to protecting your personal information when you visit our website,\n            browse our products, place an order, or communicate with us.\n        </p>\n\n        <p style=\"margin: 0 0 15px;\">\n            This Privacy Policy explains what information we collect, how we use it,\n            how we protect it, and what choices you have regarding your personal\n            information.\n        </p>\n\n        <p style=\"margin: 0;\">\n            By using our website, you acknowledge that you have read and understood\n            this Privacy Policy.\n        </p>\n    </section>\n\n\n    <!-- Information We Collect -->\n    <section style=\"margin-bottom: 40px;\">\n        <h2 style=\"margin: 0 0 15px; color: #222; font-family: Georgia, serif; font-size: 27px; font-weight: 500;\">\n            2. Information We Collect\n        </h2>\n\n        <p style=\"margin: 0 0 15px;\">\n            We may collect the following types of information when you interact\n            with our website or purchase our products.\n        </p>\n\n        <h3 style=\"margin: 25px 0 10px; color: #333; font-size: 18px;\">\n            2.1 Personal Information\n        </h3>\n\n        <p style=\"margin: 0 0 10px;\">\n            When you place an order, create an account, or contact us, we may collect:\n        </p>\n\n        <ul style=\"margin: 10px 0 20px; padding-left: 25px;\">\n            <li style=\"margin-bottom: 6px;\">Full name</li>\n            <li style=\"margin-bottom: 6px;\">Mobile phone number</li>\n            <li style=\"margin-bottom: 6px;\">Email address</li>\n            <li style=\"margin-bottom: 6px;\">Billing and delivery address</li>\n            <li style=\"margin-bottom: 6px;\">Order details and purchase history</li>\n            <li style=\"margin-bottom: 6px;\">Information you provide through customer service messages</li>\n        </ul>\n\n        <h3 style=\"margin: 25px 0 10px; color: #333; font-size: 18px;\">\n            2.2 Payment Information\n        </h3>\n\n        <p style=\"margin: 0 0 15px;\">\n            We may collect payment-related information necessary to process your\n            purchases. Payments may be handled by third-party payment providers,\n            mobile financial services, banks, or cash-on-delivery services.\n        </p>\n\n        <p style=\"margin: 0 0 15px;\">\n            We do not intend to store complete payment card details on our website.\n        </p>\n\n        <h3 style=\"margin: 25px 0 10px; color: #333; font-size: 18px;\">\n            2.3 Technical Information\n        </h3>\n\n        <p style=\"margin: 0 0 10px;\">\n            When you visit our website, certain information may be collected\n            automatically, including:\n        </p>\n\n        <ul style=\"margin: 10px 0 20px; padding-left: 25px;\">\n            <li style=\"margin-bottom: 6px;\">IP address</li>\n            <li style=\"margin-bottom: 6px;\">Browser type and device information</li>\n            <li style=\"margin-bottom: 6px;\">Pages visited and time spent on the website</li>\n            <li style=\"margin-bottom: 6px;\">Referring website or traffic source</li>\n            <li style=\"margin-bottom: 6px;\">Website usage and interaction data</li>\n        </ul>\n\n        <h3 style=\"margin: 25px 0 10px; color: #333; font-size: 18px;\">\n            2.4 Cookies and Similar Technologies\n        </h3>\n\n        <p style=\"margin: 0;\">\n            Our website may use cookies and similar technologies to remember your\n            preferences, maintain shopping cart functionality, improve website\n            performance, and understand visitor behaviour.\n        </p>\n    </section>\n\n\n    <!-- How We Use Information -->\n    <section style=\"margin-bottom: 40px;\">\n        <h2 style=\"margin: 0 0 15px; color: #222; font-family: Georgia, serif; font-size: 27px; font-weight: 500;\">\n            3. How We Use Your Information\n        </h2>\n\n        <p style=\"margin: 0 0 10px;\">\n            We use the information collected for the following purposes:\n        </p>\n\n        <ul style=\"margin: 10px 0 15px; padding-left: 25px;\">\n            <li style=\"margin-bottom: 7px;\">To process, confirm, and deliver your orders.</li>\n            <li style=\"margin-bottom: 7px;\">To communicate about order status, delivery, returns, and customer support.</li>\n            <li style=\"margin-bottom: 7px;\">To manage payments, refunds, and order records.</li>\n            <li style=\"margin-bottom: 7px;\">To improve our website, products, services, and customer experience.</li>\n            <li style=\"margin-bottom: 7px;\">To prevent fraudulent transactions, misuse, and unauthorized activities.</li>\n            <li style=\"margin-bottom: 7px;\">To send promotional messages, product announcements, offers, and updates where permitted.</li>\n            <li style=\"margin-bottom: 7px;\">To comply with applicable legal, tax, accounting, and regulatory obligations.</li>\n        </ul>\n    </section>\n\n\n    <!-- Sharing -->\n    <section style=\"margin-bottom: 40px;\">\n        <h2 style=\"margin: 0 0 15px; color: #222; font-family: Georgia, serif; font-size: 27px; font-weight: 500;\">\n            4. Sharing of Personal Information\n        </h2>\n\n        <p style=\"margin: 0 0 15px;\">\n            We do not sell your personal information to third parties.\n        </p>\n\n        <p style=\"margin: 0 0 10px;\">\n            However, we may share relevant information with trusted service providers\n            when necessary to operate our business, including:\n        </p>\n\n        <ul style=\"margin: 10px 0 15px; padding-left: 25px;\">\n            <li style=\"margin-bottom: 8px;\">\n                <strong>Delivery and courier companies:</strong>\n                To deliver your orders.\n            </li>\n\n            <li style=\"margin-bottom: 8px;\">\n                <strong>Payment service providers:</strong>\n                To process payments and refunds.\n            </li>\n\n            <li style=\"margin-bottom: 8px;\">\n                <strong>Website hosting and technology providers:</strong>\n                To maintain our website and related systems.\n            </li>\n\n            <li style=\"margin-bottom: 8px;\">\n                <strong>Analytics and advertising providers:</strong>\n                To measure website performance and advertising effectiveness,\n                where applicable.\n            </li>\n\n            <li style=\"margin-bottom: 8px;\">\n                <strong>Legal and regulatory authorities:</strong>\n                When disclosure is required by applicable law or a lawful request.\n            </li>\n        </ul>\n    </section>\n\n\n    <!-- Order Processing -->\n    <section style=\"margin-bottom: 40px;\">\n        <h2 style=\"margin: 0 0 15px; color: #222; font-family: Georgia, serif; font-size: 27px; font-weight: 500;\">\n            5. Order Processing and Delivery\n        </h2>\n\n        <p style=\"margin: 0 0 15px;\">\n            To fulfil your purchase, we may share your name, phone number,\n            delivery address, and relevant order details with courier companies\n            and delivery personnel.\n        </p>\n\n        <p style=\"margin: 0;\">\n            This information is used to facilitate delivery, contact you regarding\n            your order, and resolve delivery-related issues.\n        </p>\n    </section>\n\n\n    <!-- Marketing -->\n    <section style=\"margin-bottom: 40px;\">\n        <h2 style=\"margin: 0 0 15px; color: #222; font-family: Georgia, serif; font-size: 27px; font-weight: 500;\">\n            6. Marketing and Promotional Communications\n        </h2>\n\n        <p style=\"margin: 0 0 15px;\">\n            With your consent where required, we may send you information about\n            new perfume arrivals, decants, special offers,\n            discounts, and other products or services.\n        </p>\n\n        <p style=\"margin: 0;\">\n            You may opt out of promotional communications at any time by following\n            the unsubscribe instructions, where available, or by contacting us directly.\n        </p>\n    </section>\n\n\n    <!-- Security -->\n    <section style=\"margin-bottom: 40px;\">\n        <h2 style=\"margin: 0 0 15px; color: #222; font-family: Georgia, serif; font-size: 27px; font-weight: 500;\">\n            7. Data Security\n        </h2>\n\n        <p style=\"margin: 0 0 15px;\">\n            We take reasonable technical and organizational measures to protect\n            your personal information against unauthorized access, loss, misuse,\n            alteration, or disclosure.\n        </p>\n\n        <p style=\"margin: 0;\">\n            However, no method of electronic transmission or storage can be\n            guaranteed to be completely secure. We cannot guarantee absolute\n            security of information transmitted through the internet.\n        </p>\n    </section>\n\n\n    <!-- Data Retention -->\n    <section style=\"margin-bottom: 40px;\">\n        <h2 style=\"margin: 0 0 15px; color: #222; font-family: Georgia, serif; font-size: 27px; font-weight: 500;\">\n            8. Data Retention\n        </h2>\n\n        <p style=\"margin: 0 0 15px;\">\n            We retain personal information only for as long as reasonably necessary\n            to fulfil the purposes described in this Privacy Policy, including order\n            fulfilment, customer service, accounting, legal compliance, and dispute\n            resolution.\n        </p>\n\n        <p style=\"margin: 0;\">\n            When information is no longer required, we will take reasonable steps\n            to delete it, anonymize it, or securely dispose of it, subject to\n            applicable legal retention requirements.\n        </p>\n    </section>\n\n\n    <!-- Privacy Rights -->\n    <section style=\"margin-bottom: 40px;\">\n        <h2 style=\"margin: 0 0 15px; color: #222; font-family: Georgia, serif; font-size: 27px; font-weight: 500;\">\n            9. Your Privacy Rights\n        </h2>\n\n        <p style=\"margin: 0 0 10px;\">\n            Subject to applicable law, you may have the right to:\n        </p>\n\n        <ul style=\"margin: 10px 0 15px; padding-left: 25px;\">\n            <li style=\"margin-bottom: 7px;\">Request access to personal information we hold about you.</li>\n            <li style=\"margin-bottom: 7px;\">Request correction of inaccurate or incomplete information.</li>\n            <li style=\"margin-bottom: 7px;\">Request deletion of personal information where legally permissible.</li>\n            <li style=\"margin-bottom: 7px;\">Withdraw consent for certain types of data processing.</li>\n            <li style=\"margin-bottom: 7px;\">Opt out of promotional communications.</li>\n            <li style=\"margin-bottom: 7px;\">Ask questions or raise concerns about how your personal information is handled.</li>\n        </ul>\n    </section>\n\n\n    <!-- Third Party -->\n    <section style=\"margin-bottom: 40px;\">\n        <h2 style=\"margin: 0 0 15px; color: #222; font-family: Georgia, serif; font-size: 27px; font-weight: 500;\">\n            10. Third-Party Websites and Services\n        </h2>\n\n        <p style=\"margin: 0 0 15px;\">\n            Our website may contain links to third-party websites, social media\n            platforms, payment services, or other external services.\n        </p>\n\n        <p style=\"margin: 0;\">\n            These third parties may have their own privacy policies and data\n            handling practices. We are not responsible for the privacy practices,\n            content, or security of websites and services that we do not operate.\n        </p>\n    </section>\n\n\n    <!-- Children's Privacy -->\n    <section style=\"margin-bottom: 40px;\">\n        <h2 style=\"margin: 0 0 15px; color: #222; font-family: Georgia, serif; font-size: 27px; font-weight: 500;\">\n            11. Children's Privacy\n        </h2>\n\n        <p style=\"margin: 0;\">\n            Our website is intended for general consumers and is not specifically\n            designed to collect personal information from children. We do not\n            knowingly collect personal information from children in violation\n            of applicable law.\n        </p>\n    </section>\n\n\n    <!-- International Transfers -->\n    <section style=\"margin-bottom: 40px;\">\n        <h2 style=\"margin: 0 0 15px; color: #222; font-family: Georgia, serif; font-size: 27px; font-weight: 500;\">\n            12. International Data Transfers\n        </h2>\n\n        <p style=\"margin: 0;\">\n            Some of our website hosting, analytics, payment, or technology service\n            providers may process information outside Bangladesh. Where personal\n            information is transferred across borders, we will take reasonable\n            steps to ensure appropriate data protection safeguards are applied.\n        </p>\n    </section>\n\n\n    <!-- Changes -->\n    <section style=\"margin-bottom: 40px;\">\n        <h2 style=\"margin: 0 0 15px; color: #222; font-family: Georgia, serif; font-size: 27px; font-weight: 500;\">\n            13. Changes to This Privacy Policy\n        </h2>\n\n        <p style=\"margin: 0;\">\n            We may update this Privacy Policy from time to time to reflect changes\n            in our business practices, website functionality, technology, or\n            applicable laws. Any updated version will be published on this page\n            with a revised effective date.\n        </p>\n    </section>\n\n\n    <!-- Contact -->\n    <section style=\"margin-bottom: 20px;\">\n        <h2 style=\"margin: 0 0 15px; color: #222; font-family: Georgia, serif; font-size: 27px; font-weight: 500;\">\n            14. Contact Information\n        </h2>\n\n        <p style=\"margin: 0 0 20px;\">\n            If you have any questions, concerns, or requests regarding this Privacy\n            Policy or the handling of your personal information, please contact us.\n        </p>\n\n        <div style=\"padding: 25px 30px; background: #faf8f4; border-left: 4px solid #9a7b4f;\">\n\n            <p style=\"margin: 0 0 7px;\">\n                <strong>Business Name:</strong> Fragroot\n            </p>\n\n            \n\n            <p style=\"margin: 0 0 7px;\">\n                <strong>Email:</strong>\n                <a href=\"mailto:fragroot9@gmail.com\" style=\"color: #9a7b4f; text-decoration: underline;\">\n                    fragroot9@gmail.com\n                </a>\n            </p>\n\n            <p style=\"margin: 0 0 7px;\">\n                <strong>Phone / WhatsApp:</strong> +880 1748 127559\n            </p>\n\n            <p style=\"margin: 0;\">\n                <strong>Business Address:</strong> Bogura, Bangladesh\n            </p>\n\n        </div>\n    </section>\n\n</div>",
+   "bodyAttar": "<div style=\"max-width: 900px; margin: 0 auto; padding: 40px 20px; color: #444; font-family: Arial, sans-serif; line-height: 1.8;\">\n\n    <div style=\"text-align: center; margin-bottom: 45px; padding-bottom: 30px; border-bottom: 1px solid #e5e5e5;\">\n        <p style=\"margin: 0 0 8px; color: #9a7b4f; font-size: 13px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;\">\n            FragRoot\n        </p>\n\n        <h1 style=\"margin: 0 0 12px; color: #222; font-family: Georgia, serif; font-size: 40px; font-weight: 500;\">\n            Privacy Policy\n        </h1>\n\n        <p style=\"margin: 0; color: #777; font-size: 14px;\">\n            <strong>Effective Date:</strong> October 4, 2026\n        </p>\n    </div>\n\n\n    <!-- Introduction -->\n    <section style=\"margin-bottom: 40px;\">\n        <h2 style=\"margin: 0 0 15px; color: #222; font-family: Georgia, serif; font-size: 27px; font-weight: 500;\">\n            1. Introduction\n        </h2>\n\n        <p style=\"margin: 0 0 15px;\">\n            Welcome to FragRoot. We value your privacy and are committed\n            to protecting your personal information when you visit our website,\n            browse our products, place an order, or communicate with us.\n        </p>\n\n        <p style=\"margin: 0 0 15px;\">\n            This Privacy Policy explains what information we collect, how we use it,\n            how we protect it, and what choices you have regarding your personal\n            information.\n        </p>\n\n        <p style=\"margin: 0;\">\n            By using our website, you acknowledge that you have read and understood\n            this Privacy Policy.\n        </p>\n    </section>\n\n\n    <!-- Information We Collect -->\n    <section style=\"margin-bottom: 40px;\">\n        <h2 style=\"margin: 0 0 15px; color: #222; font-family: Georgia, serif; font-size: 27px; font-weight: 500;\">\n            2. Information We Collect\n        </h2>\n\n        <p style=\"margin: 0 0 15px;\">\n            We may collect the following types of information when you interact\n            with our website or purchase our products.\n        </p>\n\n        <h3 style=\"margin: 25px 0 10px; color: #333; font-size: 18px;\">\n            2.1 Personal Information\n        </h3>\n\n        <p style=\"margin: 0 0 10px;\">\n            When you place an order, create an account, or contact us, we may collect:\n        </p>\n\n        <ul style=\"margin: 10px 0 20px; padding-left: 25px;\">\n            <li style=\"margin-bottom: 6px;\">Full name</li>\n            <li style=\"margin-bottom: 6px;\">Mobile phone number</li>\n            <li style=\"margin-bottom: 6px;\">Email address</li>\n            <li style=\"margin-bottom: 6px;\">Billing and delivery address</li>\n            <li style=\"margin-bottom: 6px;\">Order details and purchase history</li>\n            <li style=\"margin-bottom: 6px;\">Information you provide through customer service messages</li>\n        </ul>\n\n        <h3 style=\"margin: 25px 0 10px; color: #333; font-size: 18px;\">\n            2.2 Payment Information\n        </h3>\n\n        <p style=\"margin: 0 0 15px;\">\n            We may collect payment-related information necessary to process your\n            purchases. Payments may be handled by third-party payment providers,\n            mobile financial services, banks, or cash-on-delivery services.\n        </p>\n\n        <p style=\"margin: 0 0 15px;\">\n            We do not intend to store complete payment card details on our website.\n        </p>\n\n        <h3 style=\"margin: 25px 0 10px; color: #333; font-size: 18px;\">\n            2.3 Technical Information\n        </h3>\n\n        <p style=\"margin: 0 0 10px;\">\n            When you visit our website, certain information may be collected\n            automatically, including:\n        </p>\n\n        <ul style=\"margin: 10px 0 20px; padding-left: 25px;\">\n            <li style=\"margin-bottom: 6px;\">IP address</li>\n            <li style=\"margin-bottom: 6px;\">Browser type and device information</li>\n            <li style=\"margin-bottom: 6px;\">Pages visited and time spent on the website</li>\n            <li style=\"margin-bottom: 6px;\">Referring website or traffic source</li>\n            <li style=\"margin-bottom: 6px;\">Website usage and interaction data</li>\n        </ul>\n\n        <h3 style=\"margin: 25px 0 10px; color: #333; font-size: 18px;\">\n            2.4 Cookies and Similar Technologies\n        </h3>\n\n        <p style=\"margin: 0;\">\n            Our website may use cookies and similar technologies to remember your\n            preferences, maintain shopping cart functionality, improve website\n            performance, and understand visitor behaviour.\n        </p>\n    </section>\n\n\n    <!-- How We Use Information -->\n    <section style=\"margin-bottom: 40px;\">\n        <h2 style=\"margin: 0 0 15px; color: #222; font-family: Georgia, serif; font-size: 27px; font-weight: 500;\">\n            3. How We Use Your Information\n        </h2>\n\n        <p style=\"margin: 0 0 10px;\">\n            We use the information collected for the following purposes:\n        </p>\n\n        <ul style=\"margin: 10px 0 15px; padding-left: 25px;\">\n            <li style=\"margin-bottom: 7px;\">To process, confirm, and deliver your orders.</li>\n            <li style=\"margin-bottom: 7px;\">To communicate about order status, delivery, returns, and customer support.</li>\n            <li style=\"margin-bottom: 7px;\">To manage payments, refunds, and order records.</li>\n            <li style=\"margin-bottom: 7px;\">To improve our website, products, services, and customer experience.</li>\n            <li style=\"margin-bottom: 7px;\">To prevent fraudulent transactions, misuse, and unauthorized activities.</li>\n            <li style=\"margin-bottom: 7px;\">To send promotional messages, product announcements, offers, and updates where permitted.</li>\n            <li style=\"margin-bottom: 7px;\">To comply with applicable legal, tax, accounting, and regulatory obligations.</li>\n        </ul>\n    </section>\n\n\n    <!-- Sharing -->\n    <section style=\"margin-bottom: 40px;\">\n        <h2 style=\"margin: 0 0 15px; color: #222; font-family: Georgia, serif; font-size: 27px; font-weight: 500;\">\n            4. Sharing of Personal Information\n        </h2>\n\n        <p style=\"margin: 0 0 15px;\">\n            We do not sell your personal information to third parties.\n        </p>\n\n        <p style=\"margin: 0 0 10px;\">\n            However, we may share relevant information with trusted service providers\n            when necessary to operate our business, including:\n        </p>\n\n        <ul style=\"margin: 10px 0 15px; padding-left: 25px;\">\n            <li style=\"margin-bottom: 8px;\">\n                <strong>Delivery and courier companies:</strong>\n                To deliver your orders.\n            </li>\n\n            <li style=\"margin-bottom: 8px;\">\n                <strong>Payment service providers:</strong>\n                To process payments and refunds.\n            </li>\n\n            <li style=\"margin-bottom: 8px;\">\n                <strong>Website hosting and technology providers:</strong>\n                To maintain our website and related systems.\n            </li>\n\n            <li style=\"margin-bottom: 8px;\">\n                <strong>Analytics and advertising providers:</strong>\n                To measure website performance and advertising effectiveness,\n                where applicable.\n            </li>\n\n            <li style=\"margin-bottom: 8px;\">\n                <strong>Legal and regulatory authorities:</strong>\n                When disclosure is required by applicable law or a lawful request.\n            </li>\n        </ul>\n    </section>\n\n\n    <!-- Order Processing -->\n    <section style=\"margin-bottom: 40px;\">\n        <h2 style=\"margin: 0 0 15px; color: #222; font-family: Georgia, serif; font-size: 27px; font-weight: 500;\">\n            5. Order Processing and Delivery\n        </h2>\n\n        <p style=\"margin: 0 0 15px;\">\n            To fulfil your purchase, we may share your name, phone number,\n            delivery address, and relevant order details with courier companies\n            and delivery personnel.\n        </p>\n\n        <p style=\"margin: 0;\">\n            This information is used to facilitate delivery, contact you regarding\n            your order, and resolve delivery-related issues.\n        </p>\n    </section>\n\n\n    <!-- Marketing -->\n    <section style=\"margin-bottom: 40px;\">\n        <h2 style=\"margin: 0 0 15px; color: #222; font-family: Georgia, serif; font-size: 27px; font-weight: 500;\">\n            6. Marketing and Promotional Communications\n        </h2>\n\n        <p style=\"margin: 0 0 15px;\">\n            With your consent where required, we may send you information about\n            new perfume arrivals, perfume oils, attars, special offers,\n            discounts, and other products or services.\n        </p>\n\n        <p style=\"margin: 0;\">\n            You may opt out of promotional communications at any time by following\n            the unsubscribe instructions, where available, or by contacting us directly.\n        </p>\n    </section>\n\n\n    <!-- Security -->\n    <section style=\"margin-bottom: 40px;\">\n        <h2 style=\"margin: 0 0 15px; color: #222; font-family: Georgia, serif; font-size: 27px; font-weight: 500;\">\n            7. Data Security\n        </h2>\n\n        <p style=\"margin: 0 0 15px;\">\n            We take reasonable technical and organizational measures to protect\n            your personal information against unauthorized access, loss, misuse,\n            alteration, or disclosure.\n        </p>\n\n        <p style=\"margin: 0;\">\n            However, no method of electronic transmission or storage can be\n            guaranteed to be completely secure. We cannot guarantee absolute\n            security of information transmitted through the internet.\n        </p>\n    </section>\n\n\n    <!-- Data Retention -->\n    <section style=\"margin-bottom: 40px;\">\n        <h2 style=\"margin: 0 0 15px; color: #222; font-family: Georgia, serif; font-size: 27px; font-weight: 500;\">\n            8. Data Retention\n        </h2>\n\n        <p style=\"margin: 0 0 15px;\">\n            We retain personal information only for as long as reasonably necessary\n            to fulfil the purposes described in this Privacy Policy, including order\n            fulfilment, customer service, accounting, legal compliance, and dispute\n            resolution.\n        </p>\n\n        <p style=\"margin: 0;\">\n            When information is no longer required, we will take reasonable steps\n            to delete it, anonymize it, or securely dispose of it, subject to\n            applicable legal retention requirements.\n        </p>\n    </section>\n\n\n    <!-- Privacy Rights -->\n    <section style=\"margin-bottom: 40px;\">\n        <h2 style=\"margin: 0 0 15px; color: #222; font-family: Georgia, serif; font-size: 27px; font-weight: 500;\">\n            9. Your Privacy Rights\n        </h2>\n\n        <p style=\"margin: 0 0 10px;\">\n            Subject to applicable law, you may have the right to:\n        </p>\n\n        <ul style=\"margin: 10px 0 15px; padding-left: 25px;\">\n            <li style=\"margin-bottom: 7px;\">Request access to personal information we hold about you.</li>\n            <li style=\"margin-bottom: 7px;\">Request correction of inaccurate or incomplete information.</li>\n            <li style=\"margin-bottom: 7px;\">Request deletion of personal information where legally permissible.</li>\n            <li style=\"margin-bottom: 7px;\">Withdraw consent for certain types of data processing.</li>\n            <li style=\"margin-bottom: 7px;\">Opt out of promotional communications.</li>\n            <li style=\"margin-bottom: 7px;\">Ask questions or raise concerns about how your personal information is handled.</li>\n        </ul>\n    </section>\n\n\n    <!-- Third Party -->\n    <section style=\"margin-bottom: 40px;\">\n        <h2 style=\"margin: 0 0 15px; color: #222; font-family: Georgia, serif; font-size: 27px; font-weight: 500;\">\n            10. Third-Party Websites and Services\n        </h2>\n\n        <p style=\"margin: 0 0 15px;\">\n            Our website may contain links to third-party websites, social media\n            platforms, payment services, or other external services.\n        </p>\n\n        <p style=\"margin: 0;\">\n            These third parties may have their own privacy policies and data\n            handling practices. We are not responsible for the privacy practices,\n            content, or security of websites and services that we do not operate.\n        </p>\n    </section>\n\n\n    <!-- Children's Privacy -->\n    <section style=\"margin-bottom: 40px;\">\n        <h2 style=\"margin: 0 0 15px; color: #222; font-family: Georgia, serif; font-size: 27px; font-weight: 500;\">\n            11. Children's Privacy\n        </h2>\n\n        <p style=\"margin: 0;\">\n            Our website is intended for general consumers and is not specifically\n            designed to collect personal information from children. We do not\n            knowingly collect personal information from children in violation\n            of applicable law.\n        </p>\n    </section>\n\n\n    <!-- International Transfers -->\n    <section style=\"margin-bottom: 40px;\">\n        <h2 style=\"margin: 0 0 15px; color: #222; font-family: Georgia, serif; font-size: 27px; font-weight: 500;\">\n            12. International Data Transfers\n        </h2>\n\n        <p style=\"margin: 0;\">\n            Some of our website hosting, analytics, payment, or technology service\n            providers may process information outside Bangladesh. Where personal\n            information is transferred across borders, we will take reasonable\n            steps to ensure appropriate data protection safeguards are applied.\n        </p>\n    </section>\n\n\n    <!-- Changes -->\n    <section style=\"margin-bottom: 40px;\">\n        <h2 style=\"margin: 0 0 15px; color: #222; font-family: Georgia, serif; font-size: 27px; font-weight: 500;\">\n            13. Changes to This Privacy Policy\n        </h2>\n\n        <p style=\"margin: 0;\">\n            We may update this Privacy Policy from time to time to reflect changes\n            in our business practices, website functionality, technology, or\n            applicable laws. Any updated version will be published on this page\n            with a revised effective date.\n        </p>\n    </section>\n\n\n    <!-- Contact -->\n    <section style=\"margin-bottom: 20px;\">\n        <h2 style=\"margin: 0 0 15px; color: #222; font-family: Georgia, serif; font-size: 27px; font-weight: 500;\">\n            14. Contact Information\n        </h2>\n\n        <p style=\"margin: 0 0 20px;\">\n            If you have any questions, concerns, or requests regarding this Privacy\n            Policy or the handling of your personal information, please contact us.\n        </p>\n\n        <div style=\"padding: 25px 30px; background: #faf8f4; border-left: 4px solid #9a7b4f;\">\n\n            <p style=\"margin: 0 0 7px;\">\n                <strong>Business Name:</strong> Fragroot\n            </p>\n\n            \n\n            <p style=\"margin: 0 0 7px;\">\n                <strong>Email:</strong>\n                <a href=\"mailto:fragroot9@gmail.com\" style=\"color: #9a7b4f; text-decoration: underline;\">\n                    fragroot9@gmail.com\n                </a>\n            </p>\n\n            <p style=\"margin: 0 0 7px;\">\n                <strong>Phone / WhatsApp:</strong> +880 1748 127559\n            </p>\n\n            <p style=\"margin: 0;\">\n                <strong>Business Address:</strong> Bogura, Bangladesh\n            </p>\n\n        </div>\n    </section>\n\n</div>"
+  }
+ },
+ "products": {
+  "perfume": [
+   {
+    "id": "SNYA40",
+    "name": "Sanaya 40",
+    "brand": "Junaid Perfumes",
+    "sizes": [
+     {
+      "ml": 2,
+      "price": 200,
+      "soldOut": false
+     },
+     {
+      "ml": 3,
+      "price": 270,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 480,
+      "soldOut": false
+     },
+     {
+      "ml": 10,
+      "price": 750,
+      "soldOut": false
+     },
+     {
+      "ml": 15,
+      "price": 1070,
+      "soldOut": false
+     },
+     {
+      "ml": 30,
+      "price": 2100,
+      "soldOut": false
+     }
+    ],
+    "image": "images/snya40-mv40gu3e.jpg"
+   },
+   {
+    "id": "SNYA",
+    "name": "Sanaya",
+    "brand": "Junaid Perfumes",
+    "sizes": [
+     {
+      "ml": 2,
+      "price": 150,
+      "soldOut": false
+     },
+     {
+      "ml": 3,
+      "price": 195,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 330,
+      "soldOut": false
+     },
+     {
+      "ml": 10,
+      "price": 490,
+      "soldOut": false
+     },
+     {
+      "ml": 15,
+      "price": 720,
+      "soldOut": false
+     },
+     {
+      "ml": 30,
+      "price": 1340,
+      "soldOut": false
+     }
+    ],
+    "image": "images/snya-mv40h1p3.jpg"
+   },
+   {
+    "id": "HWSICE",
+    "name": "Hawas Ice EDP",
+    "brand": "Rasasi",
+    "sizes": [
+     {
+      "ml": 2,
+      "price": 145,
+      "soldOut": false
+     },
+     {
+      "ml": 3,
+      "price": 185,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 315,
+      "soldOut": false
+     },
+     {
+      "ml": 10,
+      "price": 480,
+      "soldOut": false
+     },
+     {
+      "ml": 15,
+      "price": 695,
+      "soldOut": false
+     },
+     {
+      "ml": 30,
+      "price": 1320,
+      "soldOut": false
+     }
+    ],
+    "image": "images/hwsice-mv40h68u.jpg"
+   },
+   {
+    "id": "RHNTRA",
+    "name": "Terra EDP",
+    "brand": "Rayhaan",
+    "sizes": [
+     {
+      "ml": 2,
+      "price": 135,
+      "soldOut": false
+     },
+     {
+      "ml": 3,
+      "price": 165,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 260,
+      "soldOut": false
+     },
+     {
+      "ml": 10,
+      "price": 380,
+      "soldOut": false
+     },
+     {
+      "ml": 15,
+      "price": 540,
+      "soldOut": false
+     },
+     {
+      "ml": 30,
+      "price": 1020,
+      "soldOut": false
+     }
+    ],
+    "image": "images/rhntra-mv40hdnh.jpg"
+   },
+   {
+    "id": "LQDBRN",
+    "name": "Liquid Brun EDP",
+    "brand": "French Avenue",
+    "sizes": [
+     {
+      "ml": 2,
+      "price": 165,
+      "soldOut": false
+     },
+     {
+      "ml": 3,
+      "price": 215,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 375,
+      "soldOut": false
+     },
+     {
+      "ml": 10,
+      "price": 595,
+      "soldOut": false
+     },
+     {
+      "ml": 15,
+      "price": 840,
+      "soldOut": false
+     },
+     {
+      "ml": 30,
+      "price": 1655,
+      "soldOut": false
+     }
+    ],
+    "image": "images/lqdbrn-mv40hioj.jpg"
+   },
+   {
+    "id": "ATLNTSXTRT",
+    "name": "Atlantis Extrait EDP",
+    "brand": "French Avenue",
+    "sizes": [
+     {
+      "ml": 2,
+      "price": 165,
+      "soldOut": false
+     },
+     {
+      "ml": 3,
+      "price": 215,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 360,
+      "soldOut": false
+     },
+     {
+      "ml": 10,
+      "price": 540,
+      "soldOut": false
+     },
+     {
+      "ml": 15,
+      "price": 770,
+      "soldOut": false
+     },
+     {
+      "ml": 30,
+      "price": 1530,
+      "soldOut": false
+     }
+    ],
+    "image": "images/atlntsxtrt-mv40hnrp.jpg"
+   }
+  ],
+  "attar": [
+   {
+    "id": "ULTRML",
+    "name": "Ultra Male Perfume Oil",
+    "type": "Synthetic",
+    "sizes": [
+     {
+      "ml": 3,
+      "price": 220,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 370,
+      "soldOut": false
+     },
+     {
+      "ml": 12,
+      "price": 655,
+      "soldOut": false
+     }
+    ],
+    "giftable": true
+   },
+   {
+    "id": "SVGELXR",
+    "name": "Sauvage Elixir Perfume Oil",
+    "type": "Synthetic",
+    "sizes": [
+     {
+      "ml": 3,
+      "price": 250,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 430,
+      "soldOut": false
+     },
+     {
+      "ml": 12,
+      "price": 775,
+      "soldOut": false
+     }
+    ],
+    "giftable": true
+   },
+   {
+    "id": "SVG",
+    "name": "Sauvage Perfume Oil",
+    "type": "Synthetic",
+    "sizes": [
+     {
+      "ml": 3,
+      "price": 240,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 405,
+      "soldOut": false
+     },
+     {
+      "ml": 12,
+      "price": 730,
+      "soldOut": false
+     }
+    ],
+    "giftable": true
+   },
+   {
+    "id": "PCFCCHL",
+    "name": "Pacific Chill Perfume Oil",
+    "type": "Synthetic",
+    "sizes": [
+     {
+      "ml": 3,
+      "price": 235,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 400,
+      "soldOut": false
+     },
+     {
+      "ml": 12,
+      "price": 715,
+      "soldOut": false
+     }
+    ],
+    "giftable": true
+   },
+   {
+    "id": "LMLELXR",
+    "name": "La Male Elixir Perfume Oil",
+    "type": "Synthetic",
+    "sizes": [
+     {
+      "ml": 3,
+      "price": 235,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 400,
+      "soldOut": false
+     },
+     {
+      "ml": 12,
+      "price": 715,
+      "soldOut": false
+     }
+    ],
+    "giftable": true
+   },
+   {
+    "id": "ANI",
+    "name": "Nishane Ani Perfume Oil",
+    "type": "Synthetic",
+    "sizes": [
+     {
+      "ml": 3,
+      "price": 250,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 430,
+      "soldOut": false
+     },
+     {
+      "ml": 12,
+      "price": 775,
+      "soldOut": false
+     }
+    ],
+    "giftable": true
+   },
+   {
+    "id": "ERBPRA",
+    "name": "Erba Pura Perfume Oil",
+    "type": "Synthetic",
+    "sizes": [
+     {
+      "ml": 3,
+      "price": 220,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 375,
+      "soldOut": false
+     },
+     {
+      "ml": 12,
+      "price": 670,
+      "soldOut": false
+     }
+    ],
+    "giftable": true
+   },
+   {
+    "id": "JCAPL",
+    "name": "Eden Juicy Apple | 01 Perfume Oil",
+    "type": "Synthetic",
+    "sizes": [
+     {
+      "ml": 3,
+      "price": 230,
+      "soldOut": false
+     },
+     {
+      "ml": 6,
+      "price": 390,
+      "soldOut": false
+     },
+     {
+      "ml": 12,
+      "price": 700,
+      "soldOut": false
+     }
+    ],
+    "giftable": true
+   }
+  ]
+ },
+ "bottles": [
+  {
+   "name": "Regular",
+   "price": 0
+  },
+  {
+   "name": "Premium",
+   "price": 180,
+   "ml": 12
+  }
+ ],
+ "names": {
+  "perfume": "Fragroot",
+  "attar": "Fragroot"
+ },
+ "giftRate": 0.5,
+ "taglines": {
+  "perfume": "100% Authentic Perfume Decants",
+  "attar": "Best Quality Perfume Oils"
+ },
+ "perfumeBottles": [
+  {
+   "name": "Regular 30ml",
+   "price": 0,
+   "ml": 30
+  },
+  {
+   "name": "BDC 30ml",
+   "price": 0,
+   "ml": 30
+  }
+ ],
+ "perfumeBottleMl": 30,
+ "bottleGallery": {
+  "perfume": [
+   {
+    "name": "BDC 30ml",
+    "image": "images/bottle-perfume-mv34tao1.jpg"
+   },
+   {
+    "name": "15ml Square",
+    "image": "images/bottle-perfume-mv34ussh.jpg"
+   },
+   {
+    "name": "10ml",
+    "image": "images/bottle-perfume-mv35j96k.jpg"
+   },
+   {
+    "name": "6ml",
+    "image": "images/bottle-perfume-mv35macj.jpg"
+   },
+   {
+    "name": "3ml",
+    "image": "images/bottle-perfume-mv35xrsc.jpg"
+   },
+   {
+    "name": "2ml",
+    "image": "images/bottle-perfume-mv35z8sr.jpg"
+   },
+   {
+    "name": "15 ml Cube",
+    "image": "images/bottle-perfume-mv81iee0.jpg"
+   },
+   {
+    "name": "Regular 30ml",
+    "image": "images/bottle-perfume-mv81ijqf.jpg"
+   }
+  ],
+  "attar": [
+   {
+    "name": "Regular (12ml | 6ml | 3ml)",
+    "image": "images/bottle-attar-mv34pv7s.jpg"
+   },
+   {
+    "name": "Premium 12ml",
+    "image": "images/bottle-attar-mv81hsyh.jpg"
+   }
+  ]
+ }
+}
